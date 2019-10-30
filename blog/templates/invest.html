@@ -1,0 +1,550 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<head>
+	<meta charset="UTF-8">
+	<title>
+		{% block head_title %}
+		Tư vấn đầu tư
+		{% endblock %}
+	</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<div class="preloader"></div>
+<!-- /.preloader -->
+
+<!-- .hidden-bar -->
+
+<!-- .page-title -->
+<section id="page-title" style="background-image: url('img/page-title/bg.jpg');">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<h2>Gallery v-2</h2>
+			</div>
+		</div>
+	</div>
+</section><!-- /.page-title -->
+
+<!-- .section-title-wrap -->
+<section class="section-title-wrap">
+	<div class="container">
+		<div class="col-lg-12">
+			<!-- .section-title -->
+			<div class="section-title text-center">
+				<span>Tour of Our Villa</span>
+				<h2><span>Checkout our gallery</span></h2>
+				<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt <br>ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem.</p>
+			</div><!-- /.section-title -->
+		</div>
+	</div>
+</section><!-- /.gallery-section-title-wrap -->
+
+
+<!-- #gallery -->
+<section id="gallery" class=" gallery-page-two">
+	<div class="container-fluid">
+		<!-- .gallery-filter -->
+		<ul class="gallery-filter anim-5-all text-center">
+			<li data-filter="all" class="active gallery-sorter">
+				<span>All images</span>
+			</li>
+			<li data-filter=".interoors" class="gallery-sorter">
+				<span>Interoors</span>
+			</li>
+			<li data-filter=".kitchen" class="gallery-sorter">
+				<span>KItchen</span>
+			</li>
+			<li data-filter=".bedroom" class="gallery-sorter">
+				<span>Bedroom</span>
+			</li>
+			<li data-filter=".drawing" class="gallery-sorter">
+				<span>Drawing room</span>
+			</li>
+			<li data-filter=".balcony" class="gallery-sorter">
+				<span>Balcony</span>
+			</li>
+			<li data-filter=".bathroom" class="gallery-sorter">
+				<span>Bathroom</span>
+			</li>
+			<li data-filter=".roof" class="gallery-sorter">
+				<span>Top Roof</span>
+			</li>
+		</ul><!-- /.gallery-filter -->
+		<div class="row">
+			<!-- .image-gallery -->
+			<div class="image-gallery" data-filter-class="gallery-sorter">
+				<!-- .single-gallery -->
+				<div class="single-gallery anim-5-all bedroom interoors drawing masonryImage mix span-3">
+					<div class="img-holder">
+						<img src="img/gallery2/1.jpg" alt="">
+						<div class="content">
+							<div class="image-view">
+								<a class="fancybox" href="img/gallery2/1.jpg">
+									<i class="fa fa-camera"></i>
+								</a>
+							</div>
+							<div class="title-holder"><h4>Roof Design</h4></div>
+							<div class="link-view">
+								<a href="#"><i class="fa fa-link"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="modal-content">
+						<div class="item-name">Kitchen Room</div>
+						<img src="img/gallery2/1.jpg" alt="" class="item-image">
+						<div class="item-text">
+							<p>sed quia non numquam eius modi tempora incidunt <br> ut labore et dolore magnam aliquam quaerat volup- ptatem. voluptatem. </p>
+							<ul>
+								<li><i class="fa fa-long-arrow-right"></i> Good Furniture in room</li>
+								<li><i class="fa fa-long-arrow-right"></i> Granite Stone on floor</li>
+								<li><i class="fa fa-long-arrow-right"></i> toilet is attached</li>
+							</ul>
+						</div>
+
+					</div>
+				</div><!-- /.single-gallery -->
+				<!-- .single-gallery -->
+				<div class="single-gallery anim-5-all bedroom interoors drawing masonryImage mix span-3">
+					<div class="img-holder">
+						<img src="img/gallery2/2.jpg" alt="">
+						<div class="content">
+							<div class="image-view">
+								<a class="fancybox" href="img/gallery2/2.jpg">
+									<i class="fa fa-camera"></i>
+								</a>
+							</div>
+							<div class="title-holder"><h4>Roof Design</h4></div>
+							<div class="link-view">
+								<a href="#"><i class="fa fa-link"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="modal-content">
+						<div class="item-name">Kitchen Room</div>
+						<img src="img/gallery2/2.jpg" alt="" class="item-image">
+						<div class="item-text">
+							<p>sed quia non numquam eius modi tempora incidunt <br> ut labore et dolore magnam aliquam quaerat volup- ptatem. voluptatem. </p>
+							<ul>
+								<li><i class="fa fa-long-arrow-right"></i> Good Furniture in room</li>
+								<li><i class="fa fa-long-arrow-right"></i> Granite Stone on floor</li>
+								<li><i class="fa fa-long-arrow-right"></i> toilet is attached</li>
+							</ul>
+						</div>
+
+					</div>
+				</div><!-- /.single-gallery -->
+				<!-- .single-gallery -->
+				<div class="single-gallery anim-5-all interoors kitchen balcony masonryImage mix span-3">
+					<div class="img-holder">
+						<img src="img/gallery2/3.jpg" alt="">
+						<div class="content">
+							<div class="image-view">
+								<a class="fancybox" href="img/gallery2/3.jpg">
+									<i class="fa fa-camera"></i>
+								</a>
+							</div>
+							<div class="title-holder"><h4>Kitchen Room</h4></div>
+							<div class="link-view">
+								<a href="#"><i class="fa fa-link"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="modal-content">
+						<div class="item-name">Kitchen Room</div>
+						<img src="img/gallery2/3.jpg" alt="" class="item-image">
+						<div class="item-text">
+							<p>sed quia non numquam eius modi tempora incidunt <br> ut labore et dolore magnam aliquam quaerat volup- ptatem. voluptatem. </p>
+							<ul>
+								<li><i class="fa fa-long-arrow-right"></i> Good Furniture in room</li>
+								<li><i class="fa fa-long-arrow-right"></i> Granite Stone on floor</li>
+								<li><i class="fa fa-long-arrow-right"></i> toilet is attached</li>
+							</ul>
+						</div>
+
+					</div>
+				</div><!-- /.single-gallery -->
+				<!-- .single-gallery -->
+				<div class="single-gallery anim-5-all bedroom interoors drawing masonryImage mix span-3">
+					<div class="img-holder">
+						<img src="img/gallery2/4.jpg" alt="">
+						<div class="content">
+							<div class="image-view">
+								<a class="fancybox" href="img/gallery2/4.jpg">
+									<i class="fa fa-camera"></i>
+								</a>
+							</div>
+							<div class="title-holder"><h4>Roof Design</h4></div>
+							<div class="link-view">
+								<a href="#"><i class="fa fa-link"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="modal-content">
+						<div class="item-name">Kitchen Room</div>
+						<img src="img/gallery2/4.jpg" alt="" class="item-image">
+						<div class="item-text">
+							<p>sed quia non numquam eius modi tempora incidunt <br> ut labore et dolore magnam aliquam quaerat volup- ptatem. voluptatem. </p>
+							<ul>
+								<li><i class="fa fa-long-arrow-right"></i> Good Furniture in room</li>
+								<li><i class="fa fa-long-arrow-right"></i> Granite Stone on floor</li>
+								<li><i class="fa fa-long-arrow-right"></i> toilet is attached</li>
+							</ul>
+						</div>
+
+					</div>
+				</div><!-- /.single-gallery -->
+				<!-- .single-gallery -->
+				<div class="single-gallery anim-5-all bedroom drawing masonryImage mix span-3">
+					<div class="img-holder">
+						<img src="img/gallery2/5.jpg" alt="">
+						<div class="content">
+							<div class="image-view">
+								<a class="fancybox" href="img/gallery2/5.jpg">
+									<i class="fa fa-camera"></i>
+								</a>
+							</div>
+							<div class="title-holder"><h4>Kitchen Room</h4></div>
+							<div class="link-view">
+								<a href="#"><i class="fa fa-link"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="modal-content">
+						<div class="item-name">Kitchen Room</div>
+						<img src="img/gallery2/5.jpg" alt="" class="item-image">
+						<div class="item-text">
+							<p>sed quia non numquam eius modi tempora incidunt <br> ut labore et dolore magnam aliquam quaerat volup- ptatem. voluptatem. </p>
+							<ul>
+								<li><i class="fa fa-long-arrow-right"></i> Good Furniture in room</li>
+								<li><i class="fa fa-long-arrow-right"></i> Granite Stone on floor</li>
+								<li><i class="fa fa-long-arrow-right"></i> toilet is attached</li>
+							</ul>
+						</div>
+
+					</div>
+				</div><!-- /.single-gallery -->
+				<!-- .single-gallery -->
+				<div class="single-gallery anim-5-all bedroom drawing masonryImage mix span-3">
+					<div class="img-holder">
+						<img src="img/gallery2/6.jpg" alt="">
+						<div class="content">
+							<div class="image-view">
+								<a class="fancybox" href="img/gallery2/6.jpg">
+									<i class="fa fa-camera"></i>
+								</a>
+							</div>
+							<div class="title-holder"><h4>Kitchen Room</h4></div>
+							<div class="link-view">
+								<a href="#"><i class="fa fa-link"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="modal-content">
+						<div class="item-name">Kitchen Room</div>
+						<img src="img/gallery2/6.jpg" alt="" class="item-image">
+						<div class="item-text">
+							<p>sed quia non numquam eius modi tempora incidunt <br> ut labore et dolore magnam aliquam quaerat volup- ptatem. voluptatem. </p>
+							<ul>
+								<li><i class="fa fa-long-arrow-right"></i> Good Furniture in room</li>
+								<li><i class="fa fa-long-arrow-right"></i> Granite Stone on floor</li>
+								<li><i class="fa fa-long-arrow-right"></i> toilet is attached</li>
+							</ul>
+						</div>
+
+					</div>
+				</div><!-- /.single-gallery -->
+				<!-- .single-gallery -->
+				<div class="single-gallery anim-5-all  kitchen drawing masonryImage mix span-3">
+					<div class="img-holder">
+						<img src="img/gallery2/7.jpg" alt="">
+						<div class="content">
+							<div class="image-view">
+								<a class="fancybox" href="img/gallery2/7.jpg">
+									<i class="fa fa-camera"></i>
+								</a>
+							</div>
+							<div class="title-holder"><h4>Bed Room</h4></div>
+							<div class="link-view">
+								<a href="#"><i class="fa fa-link"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="modal-content">
+						<div class="item-name">Kitchen Room</div>
+						<img src="img/gallery2/7.jpg" alt="" class="item-image">
+						<div class="item-text">
+							<p>sed quia non numquam eius modi tempora incidunt <br> ut labore et dolore magnam aliquam quaerat volup- ptatem. voluptatem. </p>
+							<ul>
+								<li><i class="fa fa-long-arrow-right"></i> Good Furniture in room</li>
+								<li><i class="fa fa-long-arrow-right"></i> Granite Stone on floor</li>
+								<li><i class="fa fa-long-arrow-right"></i> toilet is attached</li>
+							</ul>
+						</div>
+
+					</div>
+				</div><!-- /.single-gallery -->
+				<!-- .single-gallery -->
+				<div class="single-gallery anim-5-all drawing masonryImage mix span-3">
+					<div class="img-holder">
+						<img src="img/gallery2/8.jpg" alt="">
+						<div class="content">
+							<div class="image-view">
+								<a class="fancybox" href="img/gallery2/8.jpg">
+									<i class="fa fa-camera"></i>
+								</a>
+							</div>
+							<div class="title-holder"><h4>Drawing Room</h4></div>
+							<div class="link-view">
+								<a href="#"><i class="fa fa-link"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="modal-content">
+						<div class="item-name">Kitchen Room</div>
+						<img src="img/gallery2/8.jpg" alt="" class="item-image">
+						<div class="item-text">
+							<p>sed quia non numquam eius modi tempora incidunt <br> ut labore et dolore magnam aliquam quaerat volup- ptatem. voluptatem. </p>
+							<ul>
+								<li><i class="fa fa-long-arrow-right"></i> Good Furniture in room</li>
+								<li><i class="fa fa-long-arrow-right"></i> Granite Stone on floor</li>
+								<li><i class="fa fa-long-arrow-right"></i> toilet is attached</li>
+							</ul>
+						</div>
+
+					</div>
+				</div><!-- /.single-gallery -->
+				<!-- .single-gallery -->
+				<div class="single-gallery anim-5-all drawing masonryImage mix span-3">
+					<div class="img-holder">
+						<img src="img/gallery2/9.jpg" alt="">
+						<div class="content">
+							<div class="image-view">
+								<a class="fancybox" href="img/gallery2/9.jpg">
+									<i class="fa fa-camera"></i>
+								</a>
+							</div>
+							<div class="title-holder"><h4>Drawing Room</h4></div>
+							<div class="link-view">
+								<a href="#"><i class="fa fa-link"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="modal-content">
+						<div class="item-name">Kitchen Room</div>
+						<img src="img/gallery2/9.jpg" alt="" class="item-image">
+						<div class="item-text">
+							<p>sed quia non numquam eius modi tempora incidunt <br> ut labore et dolore magnam aliquam quaerat volup- ptatem. voluptatem. </p>
+							<ul>
+								<li><i class="fa fa-long-arrow-right"></i> Good Furniture in room</li>
+								<li><i class="fa fa-long-arrow-right"></i> Granite Stone on floor</li>
+								<li><i class="fa fa-long-arrow-right"></i> toilet is attached</li>
+							</ul>
+						</div>
+
+					</div>
+				</div><!-- /.single-gallery -->
+				<!-- .single-gallery -->
+				<div class="single-gallery anim-5-all drawing masonryImage mix span-3">
+					<div class="img-holder">
+						<img src="img/gallery2/10.jpg" alt="">
+						<div class="content">
+							<div class="image-view">
+								<a class="fancybox" href="img/gallery2/10.jpg">
+									<i class="fa fa-camera"></i>
+								</a>
+							</div>
+							<div class="title-holder"><h4>Drawing Room</h4></div>
+							<div class="link-view">
+								<a href="#"><i class="fa fa-link"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="modal-content">
+						<div class="item-name">Kitchen Room</div>
+						<img src="img/gallery2/10.jpg" alt="" class="item-image">
+						<div class="item-text">
+							<p>sed quia non numquam eius modi tempora incidunt <br> ut labore et dolore magnam aliquam quaerat volup- ptatem. voluptatem. </p>
+							<ul>
+								<li><i class="fa fa-long-arrow-right"></i> Good Furniture in room</li>
+								<li><i class="fa fa-long-arrow-right"></i> Granite Stone on floor</li>
+								<li><i class="fa fa-long-arrow-right"></i> toilet is attached</li>
+							</ul>
+						</div>
+
+					</div>
+				</div><!-- /.single-gallery -->
+				<!-- .single-gallery -->
+				<div class="single-gallery anim-5-all drawing masonryImage mix span-3">
+					<div class="img-holder">
+						<img src="img/gallery2/11.jpg" alt="">
+						<div class="content">
+							<div class="image-view">
+								<a class="fancybox" href="img/gallery2/11.jpg">
+									<i class="fa fa-camera"></i>
+								</a>
+							</div>
+							<div class="title-holder"><h4>Drawing Room</h4></div>
+							<div class="link-view">
+								<a href="#"><i class="fa fa-link"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="modal-content">
+						<div class="item-name">Kitchen Room</div>
+						<img src="img/gallery2/11.jpg" alt="" class="item-image">
+						<div class="item-text">
+							<p>sed quia non numquam eius modi tempora incidunt <br> ut labore et dolore magnam aliquam quaerat volup- ptatem. voluptatem. </p>
+							<ul>
+								<li><i class="fa fa-long-arrow-right"></i> Good Furniture in room</li>
+								<li><i class="fa fa-long-arrow-right"></i> Granite Stone on floor</li>
+								<li><i class="fa fa-long-arrow-right"></i> toilet is attached</li>
+							</ul>
+						</div>
+
+					</div>
+				</div><!-- /.single-gallery -->
+				<!-- .single-gallery -->
+				<div class="single-gallery anim-5-all drawing masonryImage mix span-3">
+					<div class="img-holder">
+						<img src="img/gallery2/12.jpg" alt="">
+						<div class="content">
+							<div class="image-view">
+								<a class="fancybox" href="img/gallery2/12.jpg">
+									<i class="fa fa-camera"></i>
+								</a>
+							</div>
+							<div class="title-holder"><h4>Drawing Room</h4></div>
+							<div class="link-view">
+								<a href="#"><i class="fa fa-link"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="modal-content">
+						<div class="item-name">Kitchen Room</div>
+						<img src="img/gallery2/12.jpg" alt="" class="item-image">
+						<div class="item-text">
+							<p>sed quia non numquam eius modi tempora incidunt <br> ut labore et dolore magnam aliquam quaerat volup- ptatem. voluptatem. </p>
+							<ul>
+								<li><i class="fa fa-long-arrow-right"></i> Good Furniture in room</li>
+								<li><i class="fa fa-long-arrow-right"></i> Granite Stone on floor</li>
+								<li><i class="fa fa-long-arrow-right"></i> toilet is attached</li>
+							</ul>
+						</div>
+
+					</div>
+				</div><!-- /.single-gallery -->
+			</div><!-- /.image-gallery -->
+		</div>
+	</div>
+</section><!-- /#gallery -->
+
+
+
+<!-- gallery Modal -->
+<div class="modal fade" id="single-gallery-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabelTwo">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h4 class="modal-title text-center" id="myModalLabelTwo">Details of <span class="item-name">drawing room</span></h4>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			</div>
+			<div class="modal-body">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="img-holder item-image">
+							<img src="img/gallery2/1.jpg" alt="">
+						</div>
+					</div>
+					<div class="col-md-6 item-text">
+						<!-- content loading via jQuery -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- /gallery Modal -->
+
+<!-- #appointment -->
+<section id="appointment" class="anim-5-all dark-background">
+	<div class="container">
+		<div class="row">
+			<!-- .agent-info -->
+			<div class="col-lg-7 col-md-8 col-lg-offset-0 col-md-offset-2 agent-info">
+				<!-- .img-holder -->
+				<div class="img-holder text-center-xs">
+					<img src="img/appointment/woman.jpg" alt="">
+				</div><!-- /.img-holder -->
+				<!-- .content -->
+				<div class="content">
+					<!-- .section-title -->
+					<div class="section-title">
+						<span>For Any Querry</span>
+						<h2><span>contact our agent</span></h2>
+					</div><!-- /.section-title -->
+					<h3>Marry Doe</h3>
+					<p>(Remax Certified Agent)</p>
+					<p>Phone : 604-786-4440</p>
+					<p>Email : info@contactmarrry.com</p>
+				</div><!-- /.content -->
+			</div><!-- /.agent-info -->
+			<!-- .contact-form-wrap -->
+			<div class="col-lg-5 col-md-7 col-lg-offset-0 col-md-offset-2 contact-form-wrap">
+				<h3>send message to merry</h3>
+				<form action="http://world5.commonsupport.com/html/apart-villa/inc/sendemail.php" class="contact-form">
+					<p><input name="name" type="text" placeholder="Name"></p>
+					<p><input name="phone" type="text" placeholder="Phone Number"></p>
+					<p><input name="email" type="text" placeholder="E-mail"></p>
+					<p><textarea name="message" placeholder="Message"></textarea></p>
+					<p><button type="submit">submit now</button></p>
+				</form>
+			</div><!-- /.contact-form-wrap -->
+		</div>
+	</div>
+</section><!-- /#appointment -->
+
+
+<!-- #footer-home -->
+
+<!-- Modal -->
+<div class="modal fade" id="contact-agent-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h4 class="modal-title text-center" id="myModalLabel">Contact Our Agent</h4>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			</div>
+			<div class="modal-body">
+				<div class="modal-agent-info-box">
+					<div class="img-holder">
+						<img src="img/contact-agent-modal/1.png" alt="">
+					</div>
+					<div class="content">
+						<h3><span class="name">Marry Doe</span> <span class="position">(Remax Certified Agent)</span></h3>
+						<p>Phone : +1800 548 963 &emsp; Email : info@contactmarrry.com</p>
+					</div>
+				</div>
+				<div class="modal-contact-form">
+					<!-- .contact-form-wrap -->
+					<div class="contact-form-wrap anim-5-all">
+						<form action="http://world5.commonsupport.com/html/apart-villa/inc/sendemail.php" class="contact-form row">
+							<div class="col-md-6">
+								<p><input name="name" type="text" placeholder="Name"></p>
+								<p><input name="phone" type="text" placeholder="Phone"></p>
+								<p><input name="email" type="text" placeholder="Email"></p>
+							</div>
+							<div class="col-md-6">
+								<p><textarea name="message" placeholder="Message"></textarea></p>
+								<p><button type="submit">Get Appointment</button></p>
+							</div>
+						</form>
+					</div><!-- /.contact-form-wrap -->					
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock %}

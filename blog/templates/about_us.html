@@ -1,0 +1,251 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<head>
+	<meta charset="UTF-8">
+	<title>
+		{% block head_title %}
+		Về Diễn Giả
+		{% endblock %}
+	</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<div class="preloader"></div>
+
+<section id="page-title" style="background-image: url({% static 'img/page-title/bg.jpg' %});"> 	
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<h2>Về Diễn Giả</h2>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- #about-page-content -->
+<section id="about-page-content">
+	<div class="container">
+		<div class="row">
+			<!-- .about-page-text -->
+			<div class="col-lg-6 col-md-6 about-page-text">
+				<!-- .section-title -->
+				<div class="section-title">
+					<span>Vài nét về diễn giả</span>
+					<h2><span>DIỄN GIẢ PHẠM TUẤN ANH</span></h2>
+				</div><!-- /.section-title -->
+
+				<p>Con người là chủng loài tiến bộ vượt bậc trong thế giới tự nhiên, tuy nhiên họ vẫn không thoát được
+					các quy luật của thế giới ấy. Nên họ cần thích ứng, tiến tới cân bằng và làm thế giới tốt đẹp hơn.
+
+					Con người hiện tại, các điều kiện sống hiện tại đều do các tiền nhân truyền lại, vì vậy chúng ta
+					phải làm nó tốt hơn và chuyển giao lại cho các thể hệ tiếp theo.
+				</p>
+			</br>
+				<p> “Vật chất không tự nhiên sinh ra, cũng không tự nhiên mất đi, nó chỉ chuyển từ dạng này sang dạng
+					khác” Các hiện tượng, mối quan hệ, công việc cũng vậy, luân chuyển ngay trong cuộc đời một con
+					người, như Đức Đạt Lai Lạt Ma đã nói;
+
+					“Hãy cẩn thận với những suy nghĩ, vì chúng biến thành lời nói.
+					Hãy cẩn thận với lời nói, vì chúng biến thành hành động. Hãy cẩn thận với hành động, vì chúng biến
+					thành thói quen. Hãy cẩn thận với thói quen, vì chúng biến thành tính cách.
+
+					Hãy cẩn thận với tích cách, vì chúng biến thành số phận của bạn.”
+				</p>
+			</div><!-- /.about-page-text -->
+			<!-- .about-page-image -->
+			<div class="col-lg-6 col-md-6 about-page-image text-right">
+				<img src="{% static 'img/about-page/1.jpg' %}" alt="">
+			</div><!-- /.about-page-image -->
+		</div>
+	</div>
+</section><!-- /#about-page-content -->
+
+
+<!-- #property-highlight -->
+<section id="property-highlight" class="about-page">
+	<div class="container">
+		<div class="row">
+			<!-- .full-img -->
+			<div class="col-lg-5 col-md-12 col-sm-12 full-img">
+				<!-- .img-holder -->
+				<div class="img-holder">
+					<img src="{% static 'img/property-highlight/bang.jpg' %}" alt="">
+				</div><!-- /.img-holder -->
+			</div><!-- /.full-img -->
+			<!-- .property-highlight-text -->
+			<div class="col-lg-7 col-md-12 col-sm-12 property-highlight-text">
+				<!-- .section-title -->
+				<div class="section-title">
+					<h2><span>BẰNG CẤP - CHỨNG CHỈ</span></h2>
+				</div><!-- /.section-title -->
+				<!-- .facility-list -->
+				<ul class="facility-list">
+					<li><i class="fa fa-check-square-o"></i> 2004: Chứng chỉ Chuyên gia đánh giá nội bộ ISO9001-2000,
+						DNV cấp.
+					</li>
+					<li><i class="fa fa-check-square-o"></i> 2006: Chứng chỉ hành nghề Thiết kế xây dựng DD&CN, Sở XD
+						TP. HCM cấp
+					</li>
+					<li><i class="fa fa-check-square-o"></i> 2006: Chứng chỉ Quản l{ dự án, học bổng AOTS - Nhật Bản cấp
+					</li>
+					<li><i class="fa fa-check-square-o"></i> 2007: Chứng chỉ hành nghề Giám sát, Sở XD TP. HCM cấp
+					</li>
+
+					<li><i class="fa fa-check-square-o"></i> 2007: Chứng chỉ Chuyên viên phân tích tài chính - CFA, Viện
+						Washington, Mỹ cấp
+					</li>
+					<li><i class="fa fa-check-square-o"></i> 2011: Chứng chỉ hành nghề Môi Giới BĐS
+						- Sở XD TP. HCM cấp.
+					</li>
+					<li><i class="fa fa-check-square-o"></i> 2019: Chứng chỉ Môi giới BĐS Cao cấp— Edureal / CRS—USA
+						cấp.
+					</li>
+				</ul><!-- /.facility-list -->
+				<!-- .facility-list -->
+			</div><!-- /.property-highlight-text -->
+		</div>
+	</div>
+</section><!-- /#property-highlight -->
+
+<!-- #check-video -->
+<section id="check-video" class="anim-5-all">
+	<div class="container">
+		<div class="row">
+			<!-- .check-video-box -->
+			<div class="col-lg-6 col-md-6 check-video-box">
+				<div class="img-holder">
+					<img src="{% static 'img/check-video/vid1.jpg' %}" alt="">
+					<div class="content">
+						<a class="video-fancybox" title="Awesome RealEsate"
+							href="https://www.youtube.com/watch?v=sI1kf9w9wjY&t=96s;autoplay=1"><i
+								class="fa fa-play-circle"></i></a>
+					</div>
+				</div>
+			</div><!-- /.check-video-box -->
+			<!-- .check-video-text -->
+			<div class="col-lg-6 col-md-6 check-video-text">
+				<!-- .section-title -->
+				<div class="section-title">
+					<span>Video chia sẻ</span>
+					<h2><span>Chia sẻ kinh nghiệm đầu tư BDS</span></h2>
+				</div><!-- /.section-title -->
+				<p>Cùng xem thầy Phạm Tuấn Anh chia sẻ về kinh nghiệm đầu tư BDS như thế nào cho hiệu quả..</p>
+				<a href="#">Xem thêm</a>
+			</div><!-- /.check-video-text -->
+		</div>
+	</div>
+</section><!-- /#check-video -->
+
+<section id="check-video" class="anim-5-all">
+	<div class="container">
+		<div class="row">
+			<!-- .check-video-box -->
+			<div class="col-lg-6 col-md-6 check-video-box">
+				<div class="img-holder">
+					<img src="{% static 'img/check-video/vid1.jpg' %}" alt="">
+					<div class="content">
+						<a class="video-fancybox" title="Awesome RealEsate"
+							href="https://www.youtube.com/watch?v=sI1kf9w9wjY&t=96s;autoplay=1"><i
+								class="fa fa-play-circle"></i></a>
+					</div>
+				</div>
+			</div><!-- /.check-video-box -->
+			<!-- .check-video-text -->
+			<div class="col-lg-6 col-md-6 check-video-text">
+				<!-- .section-title -->
+				<div class="section-title">
+					<span>Video chia sẻ</span>
+					<h2><span>Chia sẻ kinh nghiệm đầu tư BDS</span></h2>
+				</div><!-- /.section-title -->
+				<p>Cùng xem thầy Phạm Tuấn Anh chia sẻ về kinh nghiệm đầu tư BDS như thế nào cho hiệu quả..</p>
+				<a href="#">Xem thêm</a>
+			</div><!-- /.check-video-text -->
+		</div>
+	</div>
+</section><!-- /#check-video -->
+
+<!-- .featured-option -->
+<section class="featured-option">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-4 col-md-4 col-sm-4 single-featured-option">
+				<div class="icon-holder">
+					<i class="fa fa-random"></i>
+				</div>
+				<div class="content">
+					<h4>Five Years Old</h4>
+					<p>Phasellus sit amet tristique ligula. Donec iaculis leo suscipit ultricies Interdum esuada fames
+						ant infaucibus.</p>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 single-featured-option">
+				<div class="icon-holder">
+					<i class="fa fa-paper-plane"></i>
+				</div>
+				<div class="content">
+					<h4>Three side open</h4>
+					<p>Phasellus sit amet tristique ligula. Donec iaculis leo suscipit ultricies Interdum esuada fames
+						ant infaucibus.</p>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 single-featured-option">
+				<div class="icon-holder">
+					<i class="fa fa-laptop"></i>
+				</div>
+				<div class="content">
+					<h4>With all aminities</h4>
+					<p>Phasellus sit amet tristique ligula. Donec iaculis leo suscipit ultricies Interdum esuada fames
+						ant infaucibus.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section><!-- /.featured-option -->
+
+<!-- #footer-home -->
+
+<!-- Modal -->
+<div class="modal fade" id="contact-agent-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h4 class="modal-title text-center" id="myModalLabel">Contact Our Agent</h4>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+						aria-hidden="true">&times;</span></button>
+			</div>
+			<div class="modal-body">
+				<div class="modal-agent-info-box">
+					<div class="img-holder">
+						<img src="{% static 'img/contact-agent-modal/1.png' %}" alt="">
+					</div>
+					<div class="content">
+						<h3><span class="name">Marry Doe</span> <span class="position">(Remax Certified Agent)</span>
+						</h3>
+						<p>Phone : +1800 548 963 &emsp; Email : info@contactmarrry.com</p>
+					</div>
+				</div>
+				<div class="modal-contact-form">
+					<!-- .contact-form-wrap -->
+					<div class="contact-form-wrap anim-5-all">
+						<form action="http://world5.commonsupport.com/html/apart-villa/inc/sendemail.php"
+							class="contact-form row">
+							<div class="col-md-6">
+								<p><input name="name" type="text" placeholder="Name"></p>
+								<p><input name="phone" type="text" placeholder="Phone"></p>
+								<p><input name="email" type="text" placeholder="Email"></p>
+							</div>
+							<div class="col-md-6">
+								<p><textarea name="message" placeholder="Message"></textarea></p>
+								<p><button type="submit">Get Appointment</button></p>
+							</div>
+						</form>
+					</div><!-- /.contact-form-wrap -->
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+{% endblock %}

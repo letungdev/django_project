@@ -1,0 +1,762 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<head>
+    <meta charset="UTF-8">
+    <title>
+        {% block head_title %}
+        Chi tiết khóa học
+        {% endblock %}
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<div class="preloader"></div>
+
+<div id="banner-style-two" class="anim-5-all">
+        <div class="container clearfix">
+            <div class="col-md-6 col-sm-6 banner-content pull-left">
+                <div class="banner-content-box">
+                    <h1>PHẠM TUẤN ANH</h1>
+                    <p>CHUYÊN GIA BDS CAO CẤP</p>
+                    <p>18A, Nguyễn Gia Trí, Phường 25, Bình Thạnh <br>Thành Phố Hồ Chí Minh</p>
+                    
+                </div>
+                <a href="#" data-toggle="modal" data-target="#contact-agent-modal">Khóa học <i class="fa fa-arrow-circle-right"></i></a>
+            </div>
+            <div class="make-appointment contact-content pull-right">
+                <div class="top-header">
+                    <h3>Nhận thông tin khóa học</h3>
+                </div>
+                <!-- .contact-form-wrap -->
+                <div class="contact-form-wrap">
+                    <form action="http://world5.commonsupport.com/html/apart-villa/inc/sendemail.php" class="contact-form">
+                        <p><input name="name" type="text" placeholder="Tên"></p>
+                        <p><input name="phone" type="text" placeholder="Số điện thoại"></p>
+                        <p><input name="email" type="text" placeholder="Email"></p>
+                        <p><textarea name="message" placeholder="Tin nhắn"></textarea></p>
+                        <p><button type="submit">Chấp nhận</button></p>
+                    </form>
+                </div><!-- /.contact-form-wrap -->
+            </div>
+        </div>
+    </div>
+    
+    <!-- #about-section -->
+    <section id="about-section" class="parallax-section" style="background-image: url(img/about/bg.png);">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 text-center-sm text-center-xs">
+                    <!-- .img-holder -->
+                    <div class="img-holder">
+                        <img src="img/about/1.jpg" alt="">
+                    </div><!-- /.img-holder -->
+                </div>
+                <!-- .about-text -->
+                <div class="col-lg-8 col-md-8 about-text">
+                    <!-- .section-title -->
+                    <div class="section-title">
+                        <span>Vài điều về Diễn Giả</span>
+                        <h2><span>Diễn Giả Phạm Tuấn Anh</span></h2>				
+                    </div><!-- /.section-title -->
+                    <p>Tốt nghiệp trường ... năm ..., có hơn 20 năm trong lĩnh vực Bất Động Sản, và 10 năm làm diễn giả</p>
+                    <p>Tốt nghiệp trường ... năm ..., có hơn 20 năm trong lĩnh vực Bất Động Sản, và 10 năm làm diễn giả</p>
+    
+                </div><!-- /.about-text -->
+            </div>
+        </div>
+    </section><!-- /#about-section -->
+    
+    <!-- #property-highlight -->
+    <section id="property-highlight">
+        <div class="container">
+            <div class="row">
+                <!-- .full-img -->
+                <div class="col-lg-5 col-md-12 col-sm-12 full-img">
+                    <!-- .img-holder -->
+                    <div class="img-holder">
+                        <img src="img/property-highlight/1.jpg" alt="">
+                    </div><!-- /.img-holder -->
+                </div><!-- /.full-img -->
+                <!-- .property-highlight-text -->
+                <div class="col-lg-7 col-md-12 col-sm-12 property-highlight-text">
+                    <!-- .section-title -->
+                    <div class="section-title">
+                        <h2><span>Học Vấn & Bằng Cấp</span></h2>
+                    </div><!-- /.section-title -->
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <!-- .single-property-highlight -->
+                            <div class="single-property-highlight">
+                                <h3>Fabulous view</h3>
+                                <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur adipisci velit, sed quia non numquam</p>
+                            </div><!-- /.single-property-highlight -->
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <!-- .single-property-highlight -->
+                            <div class="single-property-highlight">
+                                <h3>Large Play Ground</h3>
+                                <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur adipisci velit, sed quia non numquam</p>
+                            </div><!-- /.single-property-highlight -->
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <!-- .single-property-highlight -->
+                            <div class="single-property-highlight">
+                                <h3>Quiet Neighbourhood</h3>
+                                <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur adipisci velit, sed quia non numquam</p>
+                            </div><!-- /.single-property-highlight -->
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <!-- .single-property-highlight -->
+                            <div class="single-property-highlight">
+                                <h3>swimming pool</h3>
+                                <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur adipisci velit, sed quia non numquam</p>
+                            </div><!-- /.single-property-highlight -->
+                        </div>
+                    </div>
+                </div><!-- /.property-highlight-text -->
+            </div>
+        </div>
+    </section><!-- /#property-highlight -->
+    
+    <!-- #luxury-villa -->
+    <section id="luxury-villa">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <!-- .section-title -->
+                    <div class="section-title">
+                        <span>Học Vấn & Bằng Cấp</span>
+                        <h2><span>Luxuary villa</span></h2>
+                    </div><!-- /.section-title -->
+                </div>
+                <div class="col-lg-9">
+                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.</p>
+                </div>
+            </div>
+        </div>
+    </section><!-- /#luxury-villa -->
+    
+    <!-- .sliding-gallery -->
+    <section class="sliding-gallery dark-bg" id="gallery-section">
+        <div class="container-fluid">
+            <!-- .section-title -->
+            <div class="section-title text-center">
+                <span>Dự án</span>
+                <h2><span>hình ảnh một số dự án</span></h2>
+                <p>Một số hình ảnh về các dự án</p>
+            </div><!-- /.section-title -->
+            <div class="row">
+                <!-- .image-gallery -->
+                <div class="image-gallery bx-slider">
+                    <!-- .single-gallery -->
+                    <div class="single-gallery slide anim-5-all">
+                        <div class="img-holder">
+                            <img src="img/gallery2/1.jpg" alt="">
+                            <div class="content">
+                                <div class="image-view">
+                                    <a class="fancybox" href="img/gallery2/1.jpg">
+                                        <i class="fa fa-camera"></i>
+                                    </a>
+                                </div>
+                                <div class="title-holder"><h4>Luxury Estate</h4></div>
+                                <div class="link-view">
+                                    <a href="#"><i class="fa fa-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-content">
+                            <div class="item-name">Luxury Estate</div>
+                            <img src="img/gallery2/1.jpg" alt="" class="item-image">
+                            <div class="item-text">
+                                <p>Đây là dự án... <br> đầu tư .... </p>
+                                <ul>
+                                    <li><i class="fa fa-long-arrow-right"></i> Vị trí đẹp</li>
+                                    <li><i class="fa fa-long-arrow-right"></i> Giao thông thuận lợi</li>
+                                    <li><i class="fa fa-long-arrow-right"></i> Có tiềm năng để đầu tư</li>
+                                </ul>
+                            </div>
+    
+                        </div>
+                    </div><!-- /.single-gallery -->
+                    <!-- .single-gallery -->
+                    <div class="single-gallery slide anim-5-all ">
+                        <div class="img-holder">
+                            <img src="img/gallery2/2.jpg" alt="">
+                            <div class="content">
+                                <div class="image-view">
+                                    <a class="fancybox" href="img/gallery2/2.jpg">
+                                        <i class="fa fa-camera"></i>
+                                    </a>
+                                </div>
+                                <div class="title-holder"><h4>Roof Design</h4></div>
+                                <div class="link-view">
+                                    <a href="#"><i class="fa fa-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-content">
+                            <div class="item-name">Roof Design</div>
+                            <img src="img/gallery2/2.jpg" alt="" class="item-image">
+                            <div class="item-text">
+                                <p>sed quia non numquam eius modi tempora incidunt <br> ut labore et dolore magnam aliquam quaerat volup- ptatem. voluptatem. </p>
+                                <ul>
+                                    <li><i class="fa fa-long-arrow-right"></i> Good Furniture in room</li>
+                                    <li><i class="fa fa-long-arrow-right"></i> Granite Stone on floor</li>
+                                    <li><i class="fa fa-long-arrow-right"></i> toilet is attached</li>
+                                </ul>
+                            </div>
+    
+                        </div>
+                    </div><!-- /.single-gallery -->
+                    <!-- .single-gallery -->
+                    <div class="single-gallery slide anim-5-all ">
+                        <div class="img-holder">
+                            <img src="img/gallery2/3.jpg" alt="">
+                            <div class="content">
+                                <div class="image-view">
+                                    <a class="fancybox" href="img/gallery2/3.jpg">
+                                        <i class="fa fa-camera"></i>
+                                    </a>
+                                </div>
+                                <div class="title-holder"><h4>Kitchen Room</h4></div>
+                                <div class="link-view">
+                                    <a href="#"><i class="fa fa-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-content">
+                            <div class="item-name">Kitchen Room</div>
+                            <img src="img/gallery2/3.jpg" alt="" class="item-image">
+                            <div class="item-text">
+                                <p>sed quia non numquam eius modi tempora incidunt <br> ut labore et dolore magnam aliquam quaerat volup- ptatem. voluptatem. </p>
+                                <ul>
+                                    <li><i class="fa fa-long-arrow-right"></i> Good Furniture in room</li>
+                                    <li><i class="fa fa-long-arrow-right"></i> Granite Stone on floor</li>
+                                    <li><i class="fa fa-long-arrow-right"></i> toilet is attached</li>
+                                </ul>
+                            </div>
+    
+                        </div>
+                    </div><!-- /.single-gallery -->
+                    <!-- .single-gallery -->
+                    <div class="single-gallery slide anim-5-all">
+                        <div class="img-holder">
+                            <img src="img/gallery2/4.jpg" alt="">
+                            <div class="content">
+                                <div class="image-view">
+                                    <a class="fancybox" href="img/gallery2/4.jpg">
+                                        <i class="fa fa-camera"></i>
+                                    </a>
+                                </div>
+                                <div class="title-holder"><h4>Roof Design</h4></div>
+                                <div class="link-view">
+                                    <a href="#"><i class="fa fa-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-content">
+                            <div class="item-name">Roof Design</div>
+                            <img src="img/gallery2/4.jpg" alt="" class="item-image">
+                            <div class="item-text">
+                                <p>sed quia non numquam eius modi tempora incidunt <br> ut labore et dolore magnam aliquam quaerat volup- ptatem. voluptatem. </p>
+                                <ul>
+                                    <li><i class="fa fa-long-arrow-right"></i> Good Furniture in room</li>
+                                    <li><i class="fa fa-long-arrow-right"></i> Granite Stone on floor</li>
+                                    <li><i class="fa fa-long-arrow-right"></i> toilet is attached</li>
+                                </ul>
+                            </div>
+    
+                        </div>
+                    </div><!-- /.single-gallery -->
+                    <!-- .single-gallery -->
+                    <div class="single-gallery slide anim-5-all">
+                        <div class="img-holder">
+                            <img src="img/gallery2/1.jpg" alt="">
+                            <div class="content">
+                                <div class="image-view">
+                                    <a class="fancybox" href="img/gallery2/1.jpg">
+                                        <i class="fa fa-camera"></i>
+                                    </a>
+                                </div>
+                                <div class="title-holder"><h4>Roof Design</h4></div>
+                                <div class="link-view">
+                                    <a href="#"><i class="fa fa-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-content">
+                            <div class="item-name">Roof Design</div>
+                            <img src="img/gallery2/1.jpg" alt="" class="item-image">
+                            <div class="item-text">
+                                <p>sed quia non numquam eius modi tempora incidunt <br> ut labore et dolore magnam aliquam quaerat volup- ptatem. voluptatem. </p>
+                                <ul>
+                                    <li><i class="fa fa-long-arrow-right"></i> Good Furniture in room</li>
+                                    <li><i class="fa fa-long-arrow-right"></i> Granite Stone on floor</li>
+                                    <li><i class="fa fa-long-arrow-right"></i> toilet is attached</li>
+                                </ul>
+                            </div>
+    
+                        </div>
+                    </div><!-- /.single-gallery -->
+                    <!-- .single-gallery -->
+                    <div class="single-gallery slide anim-5-all ">
+                        <div class="img-holder">
+                            <img src="img/gallery2/2.jpg" alt="">
+                            <div class="content">
+                                <div class="image-view">
+                                    <a class="fancybox" href="img/gallery2/2.jpg">
+                                        <i class="fa fa-camera"></i>
+                                    </a>
+                                </div>
+                                <div class="title-holder"><h4>Roof Design</h4></div>
+                                <div class="link-view">
+                                    <a href="#"><i class="fa fa-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-content">
+                            <div class="item-name">Roof Design</div>
+                            <img src="img/gallery2/2.jpg" alt="" class="item-image">
+                            <div class="item-text">
+                                <p>sed quia non numquam eius modi tempora incidunt <br> ut labore et dolore magnam aliquam quaerat volup- ptatem. voluptatem. </p>
+                                <ul>
+                                    <li><i class="fa fa-long-arrow-right"></i> Good Furniture in room</li>
+                                    <li><i class="fa fa-long-arrow-right"></i> Granite Stone on floor</li>
+                                    <li><i class="fa fa-long-arrow-right"></i> toilet is attached</li>
+                                </ul>
+                            </div>
+    
+                        </div>
+                    </div><!-- /.single-gallery -->
+                    <!-- .single-gallery -->
+                    <div class="single-gallery slide anim-5-all ">
+                        <div class="img-holder">
+                            <img src="img/gallery2/3.jpg" alt="">
+                            <div class="content">
+                                <div class="image-view">
+                                    <a class="fancybox" href="img/gallery2/3.jpg">
+                                        <i class="fa fa-camera"></i>
+                                    </a>
+                                </div>
+                                <div class="title-holder"><h4>Kitchen Room</h4></div>
+                                <div class="link-view">
+                                    <a href="#"><i class="fa fa-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-content">
+                            <div class="item-name">Roof Design</div>
+                            <img src="img/gallery2/3.jpg" alt="" class="item-image">
+                            <div class="item-text">
+                                <p>sed quia non numquam eius modi tempora incidunt <br> ut labore et dolore magnam aliquam quaerat volup- ptatem. voluptatem. </p>
+                                <ul>
+                                    <li><i class="fa fa-long-arrow-right"></i> Good Furniture in room</li>
+                                    <li><i class="fa fa-long-arrow-right"></i> Granite Stone on floor</li>
+                                    <li><i class="fa fa-long-arrow-right"></i> toilet is attached</li>
+                                </ul>
+                            </div>
+    
+                        </div>
+                    </div><!-- /.single-gallery -->
+                    <!-- .single-gallery -->
+                    <div class="single-gallery slide anim-5-all">
+                        <div class="img-holder">
+                            <img src="img/gallery2/4.jpg" alt="">
+                            <div class="content">
+                                <div class="image-view">
+                                    <a class="fancybox" href="img/gallery2/4.jpg">
+                                        <i class="fa fa-camera"></i>
+                                    </a>
+                                </div>
+                                <div class="title-holder"><h4>Roof Design</h4></div>
+                                <div class="link-view">
+                                    <a href="#"><i class="fa fa-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-content">
+                            <div class="item-name">Roof Design</div>
+                            <img src="img/gallery2/4.jpg" alt="" class="item-image">
+                            <div class="item-text">
+                                <p>sed quia non numquam eius modi tempora incidunt <br> ut labore et dolore magnam aliquam quaerat volup- ptatem. voluptatem. </p>
+                                <ul>
+                                    <li><i class="fa fa-long-arrow-right"></i> Good Furniture in room</li>
+                                    <li><i class="fa fa-long-arrow-right"></i> Granite Stone on floor</li>
+                                    <li><i class="fa fa-long-arrow-right"></i> toilet is attached</li>
+                                </ul>
+                            </div>
+    
+                        </div>
+                    </div><!-- /.single-gallery -->
+                    <!-- .single-gallery -->
+                    <div class="single-gallery slide anim-5-all">
+                        <div class="img-holder">
+                            <img src="img/gallery2/1.jpg" alt="">
+                            <div class="content">
+                                <div class="image-view">
+                                    <a class="fancybox" href="img/gallery2/1.jpg">
+                                        <i class="fa fa-camera"></i>
+                                    </a>
+                                </div>
+                                <div class="title-holder"><h4>Roof Design</h4></div>
+                                <div class="link-view">
+                                    <a href="#"><i class="fa fa-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-content">
+                            <div class="item-name">Roof Design</div>
+                            <img src="img/gallery2/1.jpg" alt="" class="item-image">
+                            <div class="item-text">
+                                <p>sed quia non numquam eius modi tempora incidunt <br> ut labore et dolore magnam aliquam quaerat volup- ptatem. voluptatem. </p>
+                                <ul>
+                                    <li><i class="fa fa-long-arrow-right"></i> Good Furniture in room</li>
+                                    <li><i class="fa fa-long-arrow-right"></i> Granite Stone on floor</li>
+                                    <li><i class="fa fa-long-arrow-right"></i> toilet is attached</li>
+                                </ul>
+                            </div>
+    
+                        </div>
+                    </div><!-- /.single-gallery -->
+                    <!-- .single-gallery -->
+                    <div class="single-gallery slide anim-5-all ">
+                        <div class="img-holder">
+                            <img src="img/gallery2/2.jpg" alt="">
+                            <div class="content">
+                                <div class="image-view">
+                                    <a class="fancybox" href="img/gallery2/2.jpg">
+                                        <i class="fa fa-camera"></i>
+                                    </a>
+                                </div>
+                                <div class="title-holder"><h4>Roof Design</h4></div>
+                                <div class="link-view">
+                                    <a href="#"><i class="fa fa-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-content">
+                            <div class="item-name">Roof Design</div>
+                            <img src="img/gallery2/2.jpg" alt="" class="item-image">
+                            <div class="item-text">
+                                <p>sed quia non numquam eius modi tempora incidunt <br> ut labore et dolore magnam aliquam quaerat volup- ptatem. voluptatem. </p>
+                                <ul>
+                                    <li><i class="fa fa-long-arrow-right"></i> Good Furniture in room</li>
+                                    <li><i class="fa fa-long-arrow-right"></i> Granite Stone on floor</li>
+                                    <li><i class="fa fa-long-arrow-right"></i> toilet is attached</li>
+                                </ul>
+                            </div>
+    
+                        </div>
+                    </div><!-- /.single-gallery -->
+                    <!-- .single-gallery -->
+                    <div class="single-gallery slide anim-5-all ">
+                        <div class="img-holder">
+                            <img src="img/gallery2/3.jpg" alt="">
+                            <div class="content">
+                                <div class="image-view">
+                                    <a class="fancybox" href="img/gallery2/3.jpg">
+                                        <i class="fa fa-camera"></i>
+                                    </a>
+                                </div>
+                                <div class="title-holder"><h4>Kitchen Room</h4></div>
+                                <div class="link-view">
+                                    <a href="#"><i class="fa fa-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-content">
+                            <div class="item-name">Roof Design</div>
+                            <img src="img/gallery2/3.jpg" alt="" class="item-image">
+                            <div class="item-text">
+                                <p>sed quia non numquam eius modi tempora incidunt <br> ut labore et dolore magnam aliquam quaerat volup- ptatem. voluptatem. </p>
+                                <ul>
+                                    <li><i class="fa fa-long-arrow-right"></i> Good Furniture in room</li>
+                                    <li><i class="fa fa-long-arrow-right"></i> Granite Stone on floor</li>
+                                    <li><i class="fa fa-long-arrow-right"></i> toilet is attached</li>
+                                </ul>
+                            </div>
+    
+                        </div>
+                    </div><!-- /.single-gallery -->
+                    <!-- .single-gallery -->
+                    <div class="single-gallery slide anim-5-all">
+                        <div class="img-holder">
+                            <img src="img/gallery2/4.jpg" alt="">
+                            <div class="content">
+                                <div class="image-view">
+                                    <a class="fancybox" href="img/gallery2/4.jpg">
+                                        <i class="fa fa-camera"></i>
+                                    </a>
+                                </div>
+                                <div class="title-holder"><h4>Roof Design</h4></div>
+                                <div class="link-view">
+                                    <a href="#"><i class="fa fa-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-content">
+                            <div class="item-name">Roof Design</div>
+                            <img src="img/gallery2/4.jpg" alt="" class="item-image">
+                            <div class="item-text">
+                                <p>sed quia non numquam eius modi tempora incidunt <br> ut labore et dolore magnam aliquam quaerat volup- ptatem. voluptatem. </p>
+                                <ul>
+                                    <li><i class="fa fa-long-arrow-right"></i> Good Furniture in room</li>
+                                    <li><i class="fa fa-long-arrow-right"></i> Granite Stone on floor</li>
+                                    <li><i class="fa fa-long-arrow-right"></i> toilet is attached</li>
+                                </ul>
+                            </div>
+    
+                        </div>
+                    </div><!-- /.single-gallery -->
+                </div><!-- /.image-gallery -->
+            </div>
+        </div>
+    </section><!-- /.sliding-gallery -->
+    
+    
+    
+    <!-- gallery Modal -->
+    <div class="modal fade" id="single-gallery-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabelTwo">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title text-center" id="myModalLabelTwo">Details of <span class="item-name">drawing room</span></h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="img-holder item-image">
+                                <img src="img/gallery/1.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-6 item-text">
+                            <!-- content loading via jQuery -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /gallery Modal -->
+    
+    
+    
+    <!-- .call-to-action -->
+    <section class="call-to-action anim-5-all">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9 call-to-action-text">
+                    <h1>Để trở thành nhà đầu tư thực thụ ... Liên hệ ngay với chúng tôi </h1>
+                </div>
+                <div class="col-lg-3 call-to-action-button anim-5-all text-center">
+                    <button  data-toggle="modal" data-target="#contact-agent-modal">Liên Hệ</button>
+                </div>
+            </div>
+        </div>
+    </section><!-- /.call-to-action -->
+    
+    <!-- #room-dimention -->
+    
+    
+    <!-- #location-neighbouring -->
+    <section id="location-neighbouring" class="style-two">
+        <div class="container">
+            <!-- .section-title -->
+            <div class="section-title text-center">
+                <span>Về Học Viên</span>
+                <h2><span>Học viên tiêu biểu & cảm nhận</span></h2>
+                <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt <br>ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem.</p>
+            </div><!-- /.section-title -->
+            <div class="row">
+                <div class="col-md-2 col-sm-4">
+                    <div class="single-neighbour">
+                        <h3>Chuyên Gia</h3>
+                        <p>Là 1 chuyên gia về đầu tư bất động sản</p>
+                        <p class="distance"><span class="number">20</span> Năm</p>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-4">
+                    <div class="single-neighbour">
+                        <h3>Diễn giả</h3>
+                        <p>Là bậc thầy về đào tạo đầu tư bất động sản</p>
+                        <p class="distance"><span class="number">10</span> Năm</p>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-4">
+                    <div class="single-neighbour">
+                        <h3>Dự án</h3>
+                        <p>Là nhà đầu tư của nhiều dự án lớn, nhỏ</p>
+                        <p class="distance"><span class="number">100 </span> Dự án</p>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-4">
+                    <div class="single-neighbour">
+                        <h3>Người dẫn đường</h3>
+                        <p>Truyền cảm hứng và tri thức đến học viên</p>
+                        <p class="distance"><span class="number">1000</span> Học viên</p>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-4">
+                    <div class="single-neighbour">
+                        <h3>Đào tạo</h3>
+                        <p>Tổ chức rất nhiều lớp học đầu tư</p>
+                        <p class="distance"><span class="number">100</span> Lớp</p>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-4">
+                    <div class="single-neighbour">
+                        <h3>Bank</h3>
+                        <p>Council Bluffs 12</p>
+                        <p class="distance"><span class="number">1</span> Km</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!-- /#location-neighbouring -->
+    
+    <section class="testimonial has-overlay parallax-section" style="background-image: url(img/testimonials/bg.jpg);">
+        <div class="container">
+            <!-- .testimonial-wrap -->
+            <div class="testimonial-wrap-style-two">
+                <div class="clearfix">
+                    <div class="owl-carousel owl-theme">
+                        <!-- .single-testimonail -->
+                        <div class="single-testimonail item">
+                            <div class="img-holder">
+                                <img src="img/testimonials/2.png" alt="">
+                            </div>
+                            <div class="content clearfix">
+                                <p><span class="qoute">“</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nstrud exercitation ullamco laboris nisi ut aliquip ex ea commodo cons equat. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
+                                <div class="meta">
+                                    <span class="name">- Michale John</span>
+                                    <span class="postion">Spsum is simply dummy</span>
+                                </div>
+                            </div>
+                        </div><!-- /.single-testimonail -->
+                        <!-- .single-testimonail -->
+                        <div class="single-testimonail item">
+                            <div class="img-holder">
+                                <img src="img/testimonials/2.png" alt="">
+                            </div>
+                            <div class="content clearfix">
+                                <p><span class="qoute">“</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nstrud exercitation ullamco laboris nisi ut aliquip ex ea commodo cons equat. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
+                                <div class="meta">
+                                    <span class="name">- Michale John</span>
+                                    <span class="postion">Spsum is simply dummy</span>
+                                </div>
+                            </div>
+                        </div><!-- /.single-testimonail -->
+                        <!-- .single-testimonail -->
+                        <div class="single-testimonail item">
+                            <div class="img-holder">
+                                <img src="img/testimonials/2.png" alt="">
+                            </div>
+                            <div class="content clearfix">
+                                <p><span class="qoute">“</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nstrud exercitation ullamco laboris nisi ut aliquip ex ea commodo cons equat. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
+                                <div class="meta">
+                                    <span class="name">- Michale John</span>
+                                    <span class="postion">Spsum is simply dummy</span>
+                                </div>
+                            </div>
+                        </div><!-- /.single-testimonail -->
+                        <!-- .single-testimonail -->
+                        <div class="single-testimonail item">
+                            <div class="img-holder">
+                                <img src="img/testimonials/2.png" alt="">
+                            </div>
+                            <div class="content clearfix">
+                                <p><span class="qoute">“</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nstrud exercitation ullamco laboris nisi ut aliquip ex ea commodo cons equat. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
+                                <div class="meta">
+                                    <span class="name">- Michale John</span>
+                                    <span class="postion">Spsum is simply dummy</span>
+                                </div>
+                            </div>
+                        </div><!-- /.single-testimonail -->
+                    </div>
+                </div>
+            </div><!-- /.testimonial-wrap -->
+        </div>
+    </section>
+    
+    
+    <section class="contact-style-two anim-5-all" id="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 contact-info-wrap">
+                    <!-- .section-title -->
+                    <div class="section-title">
+                        <span>For Any Querry</span>
+                        <h2><span>Agent Details</span></h2>
+                    </div><!-- /.section-title -->
+                    <div class="contact-info">
+                        <ul>
+                            <li>Chris Niswandee, Smallsys Inc <br>795 E Dragram, Tucson AZ 56879 USA</li>
+                            <li>Phone : 604-786-4440</li>
+                            <li>Email : info@contactmarrry.com</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-7 right-side-overlay-full">
+                    <!-- .contact-form-wrap -->
+                    <div class="contact-form-wrap">
+                        <form action="http://world5.commonsupport.com/html/apart-villa/inc/sendemail.php" class="contact-form">
+                            <p><input name="name" type="text" placeholder="Name"></p>
+                            <p><input name="phone" type="text" placeholder="Phone"></p>
+                            <p><input name="email" type="text" placeholder="Email"></p>
+                            <p><textarea name="message" placeholder="Message"></textarea></p>
+                            <p><button type="submit">submit now</button></p>
+                        </form>
+                    </div><!-- /.contact-form-wrap -->
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <!-- #home-footer-google-map-wrap -->
+    <section id="home-footer-google-map-wrap">
+        <div class="google-map" id="home-footer-google-map" data-map-lat="-37.812802" data-map-lng="144.956981"  data-map-zoom="12" data-icon-path="img/resources/footer-map-marker.png"></div>
+    </section><!-- /#home-footer-google-map-wrap -->
+    
+    <!-- Modal -->
+    <div class="modal fade" id="contact-agent-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title text-center" id="myModalLabel">Liên hệ với chúng tôi</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-agent-info-box">
+                        <div class="img-holder">
+                            <img src="img/contact-agent-modal/1.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h3><span class="name">Huế Nguyễn</span> <span class="position"></span></h3>
+                            <p>Phone : +84 12345678 &emsp; Email : lioninvestco@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="modal-contact-form">
+                        <!-- .contact-form-wrap -->
+                        <div class="contact-form-wrap anim-5-all">
+                            <form action="http://world5.commonsupport.com/html/apart-villa/inc/sendemail.php" class="contact-form row">
+                                <div class="col-md-6">
+                                    <p><input name="name" type="text" placeholder="Tên"></p>
+                                    <p><input name="phone" type="text" placeholder="Số điện thoại"></p>
+                                    <p><input name="email" type="text" placeholder="Email"></p>
+                                </div>
+                                <div class="col-md-6">
+                                    <p><textarea name="message" placeholder="Tin nhắn"></textarea></p>
+                                    <p><button type="submit">Nhận thông tin</button></p>
+                                </div>
+                            </form>
+                        </div><!-- /.contact-form-wrap -->					
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

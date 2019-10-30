@@ -1,0 +1,852 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<head>
+	<meta charset="UTF-8">
+	<title>
+		{% block head_title %}
+		Phạm Tuấn Anh
+		{% endblock %}
+	</title>
+	<!-- reponsive meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<!-- .preloader -->
+<div class="preloader"></div>
+<!-- /.preloader -->
+
+<div id="banner-style-two" class="anim-5-all">
+	<div class="container clearfix">
+		<div class="col-md-6 col-sm-6 banner-content pull-left">
+			<div class="banner-content-box">
+				<h1>PHẠM TUẤN ANH</h1>
+				<p>CHUYÊN GIA BDS CAO CẤP</p>
+				<p>18A, Nguyễn Gia Trí, Phường 25, Bình Thạnh <br>Thành Phố Hồ Chí Minh</p>
+
+			</div>
+			<a href="#" data-toggle="modal" data-target="#contact-agent-modal">Khóa học <i
+					class="fa fa-arrow-circle-right"></i></a>
+		</div>
+		<div class="make-appointment contact-content pull-right">
+			<div class="top-header">
+				<h3>Nhận thông tin khóa học</h3>
+			</div>
+			<!-- .contact-form-wrap -->
+			<div class="contact-form-wrap">
+				<form action="http://world5.commonsupport.com/html/apart-villa/inc/sendemail.php" class="contact-form">
+					<p><input name="name" type="text" placeholder="Tên"></p>
+					<p><input name="phone" type="text" placeholder="Số điện thoại"></p>
+					<p><input name="email" type="text" placeholder="Email"></p>
+					<p><textarea name="message" placeholder="Tin nhắn"></textarea></p>
+					<p><button type="submit">Chấp nhận</button></p>
+				</form>
+			</div><!-- /.contact-form-wrap -->
+		</div>
+	</div>
+</div>
+
+<section id="about-section" class="parallax-section" style="background-image: url({% static 'img/about/bg.png' %});">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-4 col-md-4 text-center-sm text-center-xs">
+				<!-- .img-holder -->
+				<div class="img-holder">
+
+					<img src="{% static 'img/about/1.jpg' %}" alt="">
+				</div><!-- /.img-holder -->
+			</div>
+			<!-- .about-text -->
+			<div class="col-lg-8 col-md-8 about-text">
+				<!-- .section-title -->
+				<div class="section-title">
+					<span>Vài điều về Diễn Giả</span>
+					<h2><span>Nhân Sinh Quan</span></h2>
+				</div><!-- /.section-title -->
+				<p>Con người là chủng loài tiến bộ vượt bậc trong thế giới tự nhiên, tuy nhiên họ vẫn không thoát được
+					các quy luật của thế giới ấy. Nên họ cần thích ứng, tiến tới cân bằng và làm thế giới tốt đẹp hơn.
+
+					Con người hiện tại, các điều kiện sống hiện tại đều do các tiền nhân truyền lại, vì vậy chúng ta
+					phải làm nó tốt hơn và chuyển giao lại cho các thể hệ tiếp theo</p>
+				<p>Ta làm điều phải vì tin nó là điều phải. Coi là thiện, ác tùy vào thời gian, cộng đồng, xã hội, nhưng
+					hướng tới nhân văn, cái chung của nhân loại văn minh. Tránh sa vào duy chí, cực tả, cực hữu.
+				</p>
+				<p>Tu thân: Nhân – Trí - Dũng luôn là điều chúng ta phấn đấu.</p>
+
+				<div class="section-title">
+					<h2><span>Thế giới quan</span></h2>
+				</div><!-- /.section-title -->
+				<p>Lịch sử loài người là lịch sử chiến tranh, cho đến khi loài người phát minh ra lượng vũ khí nguyên tử
+					đủ hủy diệt Trái đất, khi 2 trái bom nguyên tử đã nổ ở Hiroshima và Nagasaki thì họ biết đã đến lúc
+					phải dừng các cuộc chiến tranh tàn sát, nếu không muốn đi tới diệt vong. Do đó các mâu thuẫn lớn nhỏ
+					loài người tiến bộ hiện nay đều giải quyết bằng đàm phán; cân đo đong đếm bằng lợi ích thiết thực,
+					không hòa giải được thì giải quyết bằng chiến tranh quy ước, nhanh gọn. Không vị Thần, vị Kỷ hoặc
+					cảm tính, cực tả, cực hữu.
+				</p>
+				<p>Trong xã hội loài người tuy có các hệ giá trị khác của mỗi chủng tộc, nhưng đều hướng tới Chân –
+					Thiện – Mỹ; con người sống tiện nghi hơn, đẹp hơn, lương thiện hơn và thật hơn.
+				</p>
+			</div><!-- /.about-text -->
+		</div>
+	</div>
+</section><!-- /#about-section -->
+
+<section id="property-highlight">
+	<div class="container">
+		<div class="row">
+			<!-- .full-img -->
+			<div class="col-lg-5 col-md-12 col-sm-12 full-img">
+				<!-- .img-holder -->
+				<div class="img-holder">
+					<img src="{% static '/img/property-highlight/bang.jpg' %}" alt="">
+				</div><!-- /.img-holder -->
+			</div><!-- /.full-img -->
+			<!-- .property-highlight-text -->
+			<div class="col-lg-7 col-md-12 col-sm-12 property-highlight-text">
+				<!-- .section-title -->
+				<div class="section-title">
+					<h2><span>Học Vấn & Bằng Cấp</span></h2>
+				</div><!-- /.section-title -->
+				<div class="row">
+					<div class="col-lg-6 col-md-6 col-sm-6">
+						<!-- .single-property-highlight -->
+						<div class="single-property-highlight">
+							<h3>Chứng chỉ Môi giới BĐS Cao cấp
+							</h3>
+							<p>2019: Chứng chỉ Môi giới BĐS Cao cấp — Edureal / CRS—USA cấp</p>
+						</div><!-- /.single-property-highlight -->
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-6">
+						<!-- .single-property-highlight -->
+						<div class="single-property-highlight">
+							<h3>Chứng chỉ hành nghề Môi Giới BĐS
+							</h3>
+							<p>2011: Chứng chỉ hành nghề Môi Giới BĐS
+								- Sở XD TP. HCM cấp.
+							</p>
+						</div><!-- /.single-property-highlight -->
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-6">
+						<!-- .single-property-highlight -->
+						<div class="single-property-highlight">
+							<h3>Chứng chỉ Chuyên viên phân tích tài chính - CFA
+							</h3>
+							<p>2007: Chứng chỉ Chuyên viên phân tích tài chính - CFA, Viện Washington, Mỹ cấp
+							</p>
+						</div><!-- /.single-property-highlight -->
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-6">
+						<!-- .single-property-highlight -->
+						<div class="single-property-highlight">
+							<h3>Chứng chỉ Quản lý dự án, học bổng AOTS
+							</h3>
+							<p>2006: Chứng chỉ Quản lý dự án, học bổng AOTS - Nhật Bản cấp
+							</p>
+						</div><!-- /.single-property-highlight -->
+					</div>
+				</div>
+			</div><!-- /.property-highlight-text -->
+		</div>
+	</div>
+</section><!-- /#property-highlight -->
+
+
+<!-- .sliding-gallery -->
+<section class="sliding-gallery dark-bg" id="gallery-section">
+	<div class="container-fluid">
+		<!-- .section-title -->
+		<div class="section-title text-center">
+			<h2><span>hình ảnh</span></h2>
+			<p>Một số hình ảnh về các dự án</p>
+		</div><!-- /.section-title -->
+		<div class="row">
+			<!-- .image-gallery -->
+			<div class="image-gallery bx-slider">
+				<!-- .single-gallery -->
+				<div class="single-gallery slide anim-5-all">
+					<div class="img-holder">
+						<img src="{% static '/img/gallery2/1.jpg' %}" alt="">
+
+						<div class="content">
+							<div class="image-view">
+								<a class="fancybox" href="{% static '/img/gallery2/1.jpg' %}">
+									<i class="fa fa-camera"></i>
+								</a>
+							</div>
+							<div class="title-holder">
+								<h4>Luxury Estate</h4>
+							</div>
+							<div class="link-view">
+								<a href="#"><i class="fa fa-link"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="modal-content">
+						<div class="item-name">Luxury Estate</div>
+						<img src="{% static '/img/gallery2/1.jpg' %}" alt="" class="item-image">
+						<div class="item-text">
+							<p>Đây là dự án... <br> đầu tư .... </p>
+							<ul>
+								<li><i class="fa fa-long-arrow-right"></i> Vị trí đẹp</li>
+								<li><i class="fa fa-long-arrow-right"></i> Giao thông thuận lợi</li>
+								<li><i class="fa fa-long-arrow-right"></i> Có tiềm năng để đầu tư</li>
+							</ul>
+						</div>
+
+					</div>
+				</div><!-- /.single-gallery -->
+				<div class="single-gallery slide anim-5-all">
+					<div class="img-holder">
+						<img src="{% static '/img/gallery2/1.jpg' %}" alt="">
+
+						<div class="content">
+							<div class="image-view">
+								<a class="fancybox" href="{% static '/img/gallery2/1.jpg' %}">
+									<i class="fa fa-camera"></i>
+								</a>
+							</div>
+							<div class="title-holder">
+								<h4>Luxury Estate</h4>
+							</div>
+							<div class="link-view">
+								<a href="#"><i class="fa fa-link"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="modal-content">
+						<div class="item-name">Luxury Estate</div>
+						<img src="{% static '/img/gallery2/1.jpg' %}" alt="" class="item-image">
+						<div class="item-text">
+							<p>Đây là dự án... <br> đầu tư .... </p>
+							<ul>
+								<li><i class="fa fa-long-arrow-right"></i> Vị trí đẹp</li>
+								<li><i class="fa fa-long-arrow-right"></i> Giao thông thuận lợi</li>
+								<li><i class="fa fa-long-arrow-right"></i> Có tiềm năng để đầu tư</li>
+							</ul>
+						</div>
+
+					</div>
+				</div><!-- /.single-gallery -->
+				<div class="single-gallery slide anim-5-all">
+					<div class="img-holder">
+						<img src="{% static '/img/gallery2/1.jpg' %}" alt="">
+
+						<div class="content">
+							<div class="image-view">
+								<a class="fancybox" href="{% static '/img/gallery2/1.jpg' %}">
+									<i class="fa fa-camera"></i>
+								</a>
+							</div>
+							<div class="title-holder">
+								<h4>Luxury Estate</h4>
+							</div>
+							<div class="link-view">
+								<a href="#"><i class="fa fa-link"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="modal-content">
+						<div class="item-name">Luxury Estate</div>
+						<img src="{% static '/img/gallery2/1.jpg' %}" alt="" class="item-image">
+						<div class="item-text">
+							<p>Đây là dự án... <br> đầu tư .... </p>
+							<ul>
+								<li><i class="fa fa-long-arrow-right"></i> Vị trí đẹp</li>
+								<li><i class="fa fa-long-arrow-right"></i> Giao thông thuận lợi</li>
+								<li><i class="fa fa-long-arrow-right"></i> Có tiềm năng để đầu tư</li>
+							</ul>
+						</div>
+
+					</div>
+				</div><!-- /.single-gallery -->
+				<div class="single-gallery slide anim-5-all">
+					<div class="img-holder">
+						<img src="{% static '/img/gallery2/1.jpg' %}" alt="">
+
+						<div class="content">
+							<div class="image-view">
+								<a class="fancybox" href="{% static '/img/gallery2/1.jpg' %}">
+									<i class="fa fa-camera"></i>
+								</a>
+							</div>
+							<div class="title-holder">
+								<h4>Luxury Estate</h4>
+							</div>
+							<div class="link-view">
+								<a href="#"><i class="fa fa-link"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="modal-content">
+						<div class="item-name">Luxury Estate</div>
+						<img src="{% static '/img/gallery2/1.jpg' %}" alt="" class="item-image">
+						<div class="item-text">
+							<p>Đây là dự án... <br> đầu tư .... </p>
+							<ul>
+								<li><i class="fa fa-long-arrow-right"></i> Vị trí đẹp</li>
+								<li><i class="fa fa-long-arrow-right"></i> Giao thông thuận lợi</li>
+								<li><i class="fa fa-long-arrow-right"></i> Có tiềm năng để đầu tư</li>
+							</ul>
+						</div>
+
+					</div>
+				</div><!-- /.single-gallery -->
+				<div class="single-gallery slide anim-5-all">
+					<div class="img-holder">
+						<img src="{% static '/img/gallery2/1.jpg' %}" alt="">
+
+						<div class="content">
+							<div class="image-view">
+								<a class="fancybox" href="{% static '/img/gallery2/1.jpg' %}">
+									<i class="fa fa-camera"></i>
+								</a>
+							</div>
+							<div class="title-holder">
+								<h4>Luxury Estate</h4>
+							</div>
+							<div class="link-view">
+								<a href="#"><i class="fa fa-link"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="modal-content">
+						<div class="item-name">Luxury Estate</div>
+						<img src="{% static '/img/gallery2/1.jpg' %}" alt="" class="item-image">
+						<div class="item-text">
+							<p>Đây là dự án... <br> đầu tư .... </p>
+							<ul>
+								<li><i class="fa fa-long-arrow-right"></i> Vị trí đẹp</li>
+								<li><i class="fa fa-long-arrow-right"></i> Giao thông thuận lợi</li>
+								<li><i class="fa fa-long-arrow-right"></i> Có tiềm năng để đầu tư</li>
+							</ul>
+						</div>
+
+					</div>
+				</div><!-- /.single-gallery -->
+				<div class="single-gallery slide anim-5-all">
+					<div class="img-holder">
+						<img src="{% static '/img/gallery2/1.jpg' %}" alt="">
+
+						<div class="content">
+							<div class="image-view">
+								<a class="fancybox" href="{% static '/img/gallery2/1.jpg' %}">
+									<i class="fa fa-camera"></i>
+								</a>
+							</div>
+							<div class="title-holder">
+								<h4>Luxury Estate</h4>
+							</div>
+							<div class="link-view">
+								<a href="#"><i class="fa fa-link"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="modal-content">
+						<div class="item-name">Luxury Estate</div>
+						<img src="{% static '/img/gallery2/1.jpg' %}" alt="" class="item-image">
+						<div class="item-text">
+							<p>Đây là dự án... <br> đầu tư .... </p>
+							<ul>
+								<li><i class="fa fa-long-arrow-right"></i> Vị trí đẹp</li>
+								<li><i class="fa fa-long-arrow-right"></i> Giao thông thuận lợi</li>
+								<li><i class="fa fa-long-arrow-right"></i> Có tiềm năng để đầu tư</li>
+							</ul>
+						</div>
+
+					</div>
+				</div><!-- /.single-gallery -->
+				<div class="single-gallery slide anim-5-all">
+					<div class="img-holder">
+						<img src="{% static '/img/gallery2/1.jpg' %}" alt="">
+
+						<div class="content">
+							<div class="image-view">
+								<a class="fancybox" href="{% static '/img/gallery2/1.jpg' %}">
+									<i class="fa fa-camera"></i>
+								</a>
+							</div>
+							<div class="title-holder">
+								<h4>Luxury Estate</h4>
+							</div>
+							<div class="link-view">
+								<a href="#"><i class="fa fa-link"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="modal-content">
+						<div class="item-name">Luxury Estate</div>
+						<img src="{% static '/img/gallery2/1.jpg' %}" alt="" class="item-image">
+						<div class="item-text">
+							<p>Đây là dự án... <br> đầu tư .... </p>
+							<ul>
+								<li><i class="fa fa-long-arrow-right"></i> Vị trí đẹp</li>
+								<li><i class="fa fa-long-arrow-right"></i> Giao thông thuận lợi</li>
+								<li><i class="fa fa-long-arrow-right"></i> Có tiềm năng để đầu tư</li>
+							</ul>
+						</div>
+
+					</div>
+				</div><!-- /.single-gallery -->
+				<div class="single-gallery slide anim-5-all">
+					<div class="img-holder">
+						<img src="{% static '/img/gallery2/1.jpg' %}" alt="">
+
+						<div class="content">
+							<div class="image-view">
+								<a class="fancybox" href="{% static '/img/gallery2/1.jpg' %}">
+									<i class="fa fa-camera"></i>
+								</a>
+							</div>
+							<div class="title-holder">
+								<h4>Luxury Estate</h4>
+							</div>
+							<div class="link-view">
+								<a href="#"><i class="fa fa-link"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="modal-content">
+						<div class="item-name">Luxury Estate</div>
+						<img src="{% static '/img/gallery2/1.jpg' %}" alt="" class="item-image">
+						<div class="item-text">
+							<p>Đây là dự án... <br> đầu tư .... </p>
+							<ul>
+								<li><i class="fa fa-long-arrow-right"></i> Vị trí đẹp</li>
+								<li><i class="fa fa-long-arrow-right"></i> Giao thông thuận lợi</li>
+								<li><i class="fa fa-long-arrow-right"></i> Có tiềm năng để đầu tư</li>
+							</ul>
+						</div>
+
+					</div>
+				</div><!-- /.single-gallery -->
+				<div class="single-gallery slide anim-5-all">
+					<div class="img-holder">
+						<img src="{% static '/img/gallery2/1.jpg' %}" alt="">
+
+						<div class="content">
+							<div class="image-view">
+								<a class="fancybox" href="{% static '/img/gallery2/1.jpg' %}">
+									<i class="fa fa-camera"></i>
+								</a>
+							</div>
+							<div class="title-holder">
+								<h4>Luxury Estate</h4>
+							</div>
+							<div class="link-view">
+								<a href="#"><i class="fa fa-link"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="modal-content">
+						<div class="item-name">Luxury Estate</div>
+						<img src="{% static '/img/gallery2/1.jpg' %}" alt="" class="item-image">
+						<div class="item-text">
+							<p>Đây là dự án... <br> đầu tư .... </p>
+							<ul>
+								<li><i class="fa fa-long-arrow-right"></i> Vị trí đẹp</li>
+								<li><i class="fa fa-long-arrow-right"></i> Giao thông thuận lợi</li>
+								<li><i class="fa fa-long-arrow-right"></i> Có tiềm năng để đầu tư</li>
+							</ul>
+						</div>
+
+					</div>
+				</div><!-- /.single-gallery -->
+				<div class="single-gallery slide anim-5-all">
+					<div class="img-holder">
+						<img src="{% static '/img/gallery2/1.jpg' %}" alt="">
+
+						<div class="content">
+							<div class="image-view">
+								<a class="fancybox" href="{% static '/img/gallery2/1.jpg' %}">
+									<i class="fa fa-camera"></i>
+								</a>
+							</div>
+							<div class="title-holder">
+								<h4>Luxury Estate</h4>
+							</div>
+							<div class="link-view">
+								<a href="#"><i class="fa fa-link"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="modal-content">
+						<div class="item-name">Luxury Estate</div>
+						<img src="{% static '/img/gallery2/1.jpg' %}" alt="" class="item-image">
+						<div class="item-text">
+							<p>Đây là dự án... <br> đầu tư .... </p>
+							<ul>
+								<li><i class="fa fa-long-arrow-right"></i> Vị trí đẹp</li>
+								<li><i class="fa fa-long-arrow-right"></i> Giao thông thuận lợi</li>
+								<li><i class="fa fa-long-arrow-right"></i> Có tiềm năng để đầu tư</li>
+							</ul>
+						</div>
+
+					</div>
+				</div><!-- /.single-gallery -->
+				<div class="single-gallery slide anim-5-all">
+					<div class="img-holder">
+						<img src="{% static '/img/gallery2/1.jpg' %}" alt="">
+
+						<div class="content">
+							<div class="image-view">
+								<a class="fancybox" href="{% static '/img/gallery2/1.jpg' %}">
+									<i class="fa fa-camera"></i>
+								</a>
+							</div>
+							<div class="title-holder">
+								<h4>Luxury Estate</h4>
+							</div>
+							<div class="link-view">
+								<a href="#"><i class="fa fa-link"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="modal-content">
+						<div class="item-name">Luxury Estate</div>
+						<img src="{% static '/img/gallery2/1.jpg' %}" alt="" class="item-image">
+						<div class="item-text">
+							<p>Đây là dự án... <br> đầu tư .... </p>
+							<ul>
+								<li><i class="fa fa-long-arrow-right"></i> Vị trí đẹp</li>
+								<li><i class="fa fa-long-arrow-right"></i> Giao thông thuận lợi</li>
+								<li><i class="fa fa-long-arrow-right"></i> Có tiềm năng để đầu tư</li>
+							</ul>
+						</div>
+
+					</div>
+				</div><!-- /.single-gallery -->
+			</div><!-- /.image-gallery -->
+		</div>
+	</div>
+</section><!-- /.sliding-gallery -->
+
+<div class="modal fade" id="single-gallery-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabelTwo">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h4 class="modal-title text-center" id="myModalLabelTwo">Details of <span class="item-name">drawing
+						room</span></h4>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+						aria-hidden="true">&times;</span></button>
+			</div>
+			<div class="modal-body">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="img-holder item-image">
+							<img src="{% static '/img/gallery1.jpg' %}" alt="">
+						</div>
+					</div>
+					<div class="col-md-6 item-text">
+						<!-- content loading via jQuery -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<section id="location-neighbouring" class="style-two">
+	<div class="container">
+		<!-- .section-title -->
+		<div class="section-title text-center">
+			<span>Về Học Viên</span>
+			<h2><span>Sứ mệnh</span></h2>
+			<p>Mr. Phạm Tuấn Anh không chỉ là 1 nhà đầu tư bất động sản, bên cạnh đó còn là 1 người thầy, 1 nhà đào
+				tạo....</p>
+			<p>Xây dựng 10 dự án BĐS có ý nghĩa xã hội trước 60 tuổi. Xây dựng các dự án phát triển tri thức, kinh
+				tế vùng cao, vùng sâu Việt Nam</p>
+			<p>Truyền cảm hứng đầu tư BĐS Tử tế tới 10 triệu người Việt Nam trưởng thành, hướng dẫn đầu tư tới 1
+				triệu người, và dìu dắt 5000 nhà đầu tư chuyên nghiệp.
+			</p>
+		</div><!-- /.section-title -->
+		<div class="row">
+			<div class="col-md-2 col-sm-4">
+				<div class="single-neighbour">
+					<h3>Chuyên Gia</h3>
+					<p>Là 1 chuyên gia về đầu tư bất động sản</p>
+					<p class="distance"><span class="number">20</span> Năm</p>
+				</div>
+			</div>
+			<div class="col-md-2 col-sm-4">
+				<div class="single-neighbour">
+					<h3>Diễn giả</h3>
+					<p>Là bậc thầy về đào tạo đầu tư bất động sản</p>
+					<p class="distance"><span class="number">10</span> Năm</p>
+				</div>
+			</div>
+			<div class="col-md-2 col-sm-4">
+				<div class="single-neighbour">
+					<h3>Người thầy</h3>
+					<p>Một người thầy tận tâm</p>
+					<p class="distance"><span class="number">1</span> Km</p>
+				</div>
+			</div>
+			<div class="col-md-2 col-sm-4">
+				<div class="single-neighbour">
+					<h3>Dự án</h3>
+					<p>Là nhà đầu tư của nhiều dự án lớn, nhỏ</p>
+					<p class="distance"><span class="number">100 </span> Dự án</p>
+				</div>
+			</div>
+			<div class="col-md-2 col-sm-4">
+				<div class="single-neighbour">
+					<h3>Người dẫn đường</h3>
+					<p>Truyền cảm hứng và tri thức đến học viên</p>
+					<p class="distance"><span class="number">1000</span> Học viên</p>
+				</div>
+			</div>
+			<div class="col-md-2 col-sm-4">
+				<div class="single-neighbour">
+					<h3>Đào tạo</h3>
+					<p>Tổ chức rất nhiều lớp học đầu tư</p>
+					<p class="distance"><span class="number">100</span> Lớp</p>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section><!-- /#location-neighbouring -->
+
+<section class="testimonial has-overlay parallax-section"
+	style="background-image: url({% static 'img/testimonials/bg.jpg' %});">
+	<div class="container">
+		<!-- .testimonial-wrap -->
+		<div class="testimonial-wrap-style-two">
+			<div class="clearfix">
+				<div class="owl-carousel owl-theme">
+					<!-- .single-testimonail -->
+					<div class="single-testimonail item">
+						<div class="img-holder">
+							<img src="{% static 'img/testimonials/2.png' %}" alt="">
+						</div>
+						<div class="content clearfix">
+							<p><span class="qoute">“</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+								do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nstrud exercitation ullamco laboris nisi ut aliquip ex ea commodo cons equat. Duis
+								aute irure dolor in reprehenderit in voluptate velit esse.</p>
+							<div class="meta">
+								<span class="name">- Michale John</span>
+								<span class="postion">Spsum is simply dummy</span>
+							</div>
+						</div>
+					</div><!-- /.single-testimonail -->
+					<!-- .single-testimonail -->
+					<div class="single-testimonail item">
+						<div class="img-holder">
+							<img src="{% static 'img/testimonials/2.png' %}" alt="">
+						</div>
+						<div class="content clearfix">
+							<p><span class="qoute">“</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+								do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nstrud exercitation ullamco laboris nisi ut aliquip ex ea commodo cons equat. Duis
+								aute irure dolor in reprehenderit in voluptate velit esse.</p>
+							<div class="meta">
+								<span class="name">- Michale John</span>
+								<span class="postion">Spsum is simply dummy</span>
+							</div>
+						</div>
+					</div><!-- /.single-testimonail -->
+					<!-- .single-testimonail -->
+					<div class="single-testimonail item">
+						<div class="img-holder">
+							<img src="{% static 'img/testimonials/2.png' %}" alt="">
+						</div>
+						<div class="content clearfix">
+							<p><span class="qoute">“</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+								do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nstrud exercitation ullamco laboris nisi ut aliquip ex ea commodo cons equat. Duis
+								aute irure dolor in reprehenderit in voluptate velit esse.</p>
+							<div class="meta">
+								<span class="name">- Michale John</span>
+								<span class="postion">Spsum is simply dummy</span>
+							</div>
+						</div>
+					</div><!-- /.single-testimonail -->
+					<!-- .single-testimonail -->
+					<div class="single-testimonail item">
+						<div class="img-holder">
+							<img src="{% static 'img/testimonials/2.png' %}" alt="">
+						</div>
+						<div class="content clearfix">
+							<p><span class="qoute">“</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+								do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nstrud exercitation ullamco laboris nisi ut aliquip ex ea commodo cons equat. Duis
+								aute irure dolor in reprehenderit in voluptate velit esse.</p>
+							<div class="meta">
+								<span class="name">- Michale John</span>
+								<span class="postion">Spsum is simply dummy</span>
+							</div>
+						</div>
+					</div><!-- /.single-testimonail -->
+				</div>
+			</div>
+		</div><!-- /.testimonial-wrap -->
+	</div>
+</section>
+
+<section id="check-video" class="anim-5-all">
+	<div class="container">
+		<div class="row">
+			<!-- .check-video-box -->
+			<div class="col-lg-6 col-md-6 check-video-box">
+				<div class="img-holder">
+					<img src="{% static 'img/check-video/vid1.jpg' %}" alt="">
+					<div class="content">
+						<a class="video-fancybox" title="Awesome RealEsate"
+							href="https://www.youtube.com/watch?v=sI1kf9w9wjY&t=96s;autoplay=1"><i
+								class="fa fa-play-circle"></i></a>
+					</div>
+				</div>
+			</div><!-- /.check-video-box -->
+			<!-- .check-video-text -->
+			<div class="col-lg-6 col-md-6 check-video-text">
+				<!-- .section-title -->
+				<div class="section-title">
+					<span>Video chia sẻ</span>
+					<h2><span>Chia sẻ kinh nghiệm đầu tư BDS</span></h2>
+				</div><!-- /.section-title -->
+				<p>Cùng xem thầy Phạm Tuấn Anh chia sẻ về kinh nghiệm đầu tư BDS như thế nào cho hiệu quả..</p>
+				<a href="#">Xem thêm</a>
+			</div><!-- /.check-video-text -->
+		</div>
+	</div>
+</section>
+<!-- /#check-video --
+
+<!-- #blogs -->
+<section id="blogs" class="anim-5-all">
+	<div class="container">
+		<!-- .section-title -->
+		<div class="section-title text-center">
+			<span>Kiến thức</span>
+			<h2><span>Diễn đàn</span></h2>
+		</div><!-- /.section-title -->
+		<div class="row">
+			<div class="col-lg-4 col-md-4 col-sm-6">
+				<!-- .single-blog-post -->
+				<div class="single-blog-post">
+					<div class="img-holder">
+						<img src="{% static 'img/blogs/1.jpg' %}" alt="">
+						<div class="overlay"><a href="#"><i class="fa fa-link"></i></a></div>
+						<div class="date">
+							<b>05</b> Aug
+						</div>
+					</div>
+					<ul>
+						<li><span>By: Anjori Meyami</span></li>
+						<li><a href="#">Comments: 6</a></li>
+					</ul>
+					<h2 class="title">Heading of Blog</h2>
+					<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusa nt ium doloremque
+						laudantium totam rem aperiam</p>
+					<a href="#">Read more <i class="fa fa-angle-double-right"></i></a>
+				</div><!-- /.single-blog-post -->
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-6">
+				<!-- .single-blog-post -->
+				<div class="single-blog-post">
+					<div class="img-holder">
+						<img src="{% static 'img/blogs/2.jpg' %}" alt="">
+						<div class="overlay"><a href="#"><i class="fa fa-link"></i></a></div>
+						<div class="date">
+							<b>05</b> Aug
+						</div>
+					</div>
+					<ul>
+						<li><span>By: Anjori Meyami</span></li>
+						<li><a href="#">Comments: 6</a></li>
+					</ul>
+					<h2 class="title">Heading of Blog</h2>
+					<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusa nt ium doloremque
+						laudantium totam rem aperiam</p>
+					<a href="#">Read more <i class="fa fa-angle-double-right"></i></a>
+				</div><!-- /.single-blog-post -->
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-6 col-lg-offset-0 col-md-offset-0 col-sm-offset-3">
+				<!-- .single-blog-post -->
+				<div class="single-blog-post">
+					<div class="img-holder">
+						<img src="{% static 'img/blogs/3.jpg' %}" alt="">
+						<div class="overlay"><a href="#"><i class="fa fa-link"></i></a></div>
+						<div class="date">
+							<b>05</b> Aug
+						</div>
+					</div>
+					<ul>
+						<li><span>By: Anjori Meyami</span></li>
+						<li><a href="#">Comments: 6</a></li>
+					</ul>
+					<h2 class="title">Heading of Blog</h2>
+					<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusa nt ium doloremque
+						laudantium totam rem aperiam</p>
+					<a href="#">Read more <i class="fa fa-angle-double-right"></i></a>
+				</div><!-- /.single-blog-post -->
+			</div>
+		</div>
+	</div>
+</section><!-- /#blogs -->
+
+<section class="contact-style-two anim-5-all" id="contact-section">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-5 contact-info-wrap">
+				<!-- .section-title -->
+				<div class="section-title">
+					<span>Văn phòng đại diện</span>
+					<h2><span>Lion Invest</span></h2>
+				</div><!-- /.section-title -->
+				<div class="contact-info">
+					<ul>
+						<li>Phòng 502 - GIC Tower <br>18A Nguyễn Gia Trí, Phường 25, Bình Thạnh</li>
+						<li>Phone : 0911 -100-502</li>
+						<li>Email : lionivestco@gmail.com</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-7 right-side-overlay-full">
+				<!-- .contact-form-wrap -->
+				<div class="contact-form-wrap">
+					<form action="http://world5.commonsupport.com/html/apart-villa/inc/sendemail.php"
+						class="contact-form">
+						<p><input name="name" type="text" placeholder="Tên"></p>
+						<p><input name="phone" type="text" placeholder="Số điện thoại"></p>
+						<p><input name="email" type="text" placeholder="Email"></p>
+						<p><textarea name="message" placeholder="Tin nhắn"></textarea></p>
+						<p><button type="submit">Nhận thông tin</button></p>
+					</form>
+				</div><!-- /.contact-form-wrap -->
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- #home-footer-google-map-wrap -->
+
+
+<!-- .call-to-action -->
+<section class="call-to-action on-footer-home no-padding anim-5-all">
+	<div class="container">
+		<!-- .call-to-action -->
+		<div class="call-to-action style-two style-three row">
+			<div class="col-lg-9">
+				<!-- .call-to-action-text -->
+				<div class="call-to-action-text">
+					<h2>Lịch học</h2>
+					<p>loading...
+					</p>
+				</div><!-- /.call-to-action-text -->
+			</div>
+			<div class="col-lg-3 text-center">
+				<button data-toggle="modal" data-target="#contact-agent-modal">shedule a visit</button>
+			</div>
+		</div><!-- /.call-to-action -->
+	</div>
+</section><!-- /.call-to-action -->
+
+<!-- #footer-home -->
+
+<!-- Modal -->
+
+
+
+{% endblock %}

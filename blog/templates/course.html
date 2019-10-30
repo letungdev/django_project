@@ -1,0 +1,348 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<head>
+    <meta charset="UTF-8">
+    <title>
+        {% block head_title %}
+        Chi tiết khóa học
+        {% endblock %}
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<div class="preloader"></div>
+
+<section id="page-title" style="background-image: url('img/page-title/bg.jpg');">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<h2>Take a tour</h2>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<!-- .take-a-tour-video-box -->
+<section class="take-a-tour-video-box">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<!-- .section-title -->
+				<div class="section-title text-center">
+					<span>Tour of Our Villa</span>
+					<h2><span>Checkout our gallery</span></h2>
+					<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt <br>ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem.</p>
+				</div><!-- /.section-title -->
+				<!-- .check-video-box -->
+				<div class="check-video-box">
+					<div class="img-holder">
+						<img src="img/check-video/2.jpg" alt="">
+						<div class="content">
+							<a class="video-fancybox" title="Awesome RealEsate" href="http://www.youtube.com/v/QTMhCsahj2k?fs=1&amp;autoplay=1"><i class="fa fa-play-circle"></i></a>
+						</div>
+					</div>
+				</div><!-- /.check-video-box -->
+				<!-- .room-amount -->
+				
+			</div>
+		</div>
+	</div>
+</section><!-- /.take-a-tour-video-box -->
+
+
+<section id="blogs" class="anim-5-all">
+		<div class="container">
+			<!-- .section-title -->
+			<div class="section-title text-center">
+				<span>Tips and Tricks</span>
+				<h2><span>Latest blogs</span></h2>
+			</div><!-- /.section-title -->
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-6">
+					<!-- .single-blog-post -->
+					<div class="single-blog-post">
+						<div class="img-holder">
+						<img src="{% static 'img/blogs/1.jpg' %}" alt="">
+							<div class="overlay"><a href="#"><i class="fa fa-link"></i></a></div>
+							<div class="date">
+								<b>05</b> Aug
+							</div>
+						</div>
+						<ul>
+							<li><span>By: Anjori Meyami</span></li>
+							<li><a href="#">Comments: 6</a></li>
+						</ul>
+						<h2 class="title">Heading of Blog</h2>
+						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusa nt ium doloremque laudantium totam rem aperiam</p>
+						<a href="#">Read more  <i class="fa fa-angle-double-right"></i></a>
+					</div><!-- /.single-blog-post -->
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6">
+					<!-- .single-blog-post -->
+					<div class="single-blog-post">
+						<div class="img-holder">
+						<img src="{% static 'img/blogs/2.jpg' %}" alt="">
+							<div class="overlay"><a href="#"><i class="fa fa-link"></i></a></div>
+							<div class="date">
+								<b>05</b> Aug
+							</div>
+						</div>
+						<ul>
+							<li><span>By: Anjori Meyami</span></li>
+							<li><a href="#">Comments: 6</a></li>
+						</ul>
+						<h2 class="title">Heading of Blog</h2>
+						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusa nt ium doloremque laudantium totam rem aperiam</p>
+						<a href="#">Read more  <i class="fa fa-angle-double-right"></i></a>
+					</div><!-- /.single-blog-post -->
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6 col-lg-offset-0 col-md-offset-0 col-sm-offset-3">
+					<!-- .single-blog-post -->
+					<div class="single-blog-post">
+						<div class="img-holder">
+							 <img src="{% static 'img/blogs/3.jpg' %}" alt="">
+							<div class="overlay"><a href="#"><i class="fa fa-link"></i></a></div>
+							<div class="date">
+								<b>05</b> Aug
+							</div>
+						</div>
+						<ul>
+							<li><span>By: Anjori Meyami</span></li>
+							<li><a href="#">Comments: 6</a></li>
+						</ul>
+						<h2 class="title">Heading of Blog</h2>
+						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusa nt ium doloremque laudantium totam rem aperiam</p>
+						<a href="#">Read more  <i class="fa fa-angle-double-right"></i></a>
+					</div><!-- /.single-blog-post -->
+				</div>
+			</div>
+		</div>
+	</section><!-- /#blogs -->
+		
+
+<!-- .sliding-gallery -->
+<section class="sliding-gallery">
+	<div class="container-fluid">
+		<!-- .section-title -->
+		<div class="section-title text-center">
+			<span>Tour of Villa</span>
+			<h2><span>checkout some images of villas</span></h2>
+		</div><!-- /.section-title -->
+		<div class="row">
+			<!-- .image-gallery -->
+			<div class="image-gallery bx-slider">
+				<!-- .single-gallery -->
+				<div class="single-gallery slide anim-5-all">
+					<div class="img-holder">
+						<img src="img/gallery2/1.jpg" alt="">
+						<div class="content">
+							<div class="image-view">
+								<a class="fancybox" href="img/gallery2/1.jpg">
+									<i class="fa fa-camera"></i>
+								</a>
+							</div>
+							<div class="title-holder"><h4>Roof Design</h4></div>
+							<div class="link-view">
+								<a href="#"><i class="fa fa-link"></i></a>
+							</div>
+						</div>
+					</div>
+				</div><!-- /.single-gallery -->
+				<!-- .single-gallery -->
+				<div class="single-gallery slide anim-5-all ">
+					<div class="img-holder">
+						<img src="img/gallery2/2.jpg" alt="">
+						<div class="content">
+							<div class="image-view">
+								<a class="fancybox" href="img/gallery2/2.jpg">
+									<i class="fa fa-camera"></i>
+								</a>
+							</div>
+							<div class="title-holder"><h4>Roof Design</h4></div>
+							<div class="link-view">
+								<a href="#"><i class="fa fa-link"></i></a>
+							</div>
+						</div>
+					</div>
+				</div><!-- /.single-gallery -->
+				<!-- .single-gallery -->
+				<div class="single-gallery slide anim-5-all ">
+					<div class="img-holder">
+						<img src="img/gallery2/3.jpg" alt="">
+						<div class="content">
+							<div class="image-view">
+								<a class="fancybox" href="img/gallery2/3.jpg">
+									<i class="fa fa-camera"></i>
+								</a>
+							</div>
+							<div class="title-holder"><h4>Kitchen Room</h4></div>
+							<div class="link-view">
+								<a href="#"><i class="fa fa-link"></i></a>
+							</div>
+						</div>
+					</div>
+				</div><!-- /.single-gallery -->
+				<!-- .single-gallery -->
+				<div class="single-gallery slide anim-5-all">
+					<div class="img-holder">
+						<img src="img/gallery2/4.jpg" alt="">
+						<div class="content">
+							<div class="image-view">
+								<a class="fancybox" href="img/gallery2/4.jpg">
+									<i class="fa fa-camera"></i>
+								</a>
+							</div>
+							<div class="title-holder"><h4>Roof Design</h4></div>
+							<div class="link-view">
+								<a href="#"><i class="fa fa-link"></i></a>
+							</div>
+						</div>
+					</div>
+				</div><!-- /.single-gallery -->
+				<!-- .single-gallery -->
+				<div class="single-gallery slide anim-5-all">
+					<div class="img-holder">
+						<img src="img/gallery2/1.jpg" alt="">
+						<div class="content">
+							<div class="image-view">
+								<a class="fancybox" href="img/gallery2/1.jpg">
+									<i class="fa fa-camera"></i>
+								</a>
+							</div>
+							<div class="title-holder"><h4>Roof Design</h4></div>
+							<div class="link-view">
+								<a href="#"><i class="fa fa-link"></i></a>
+							</div>
+						</div>
+					</div>
+				</div><!-- /.single-gallery -->
+				<!-- .single-gallery -->
+				<div class="single-gallery slide anim-5-all ">
+					<div class="img-holder">
+						<img src="img/gallery2/2.jpg" alt="">
+						<div class="content">
+							<div class="image-view">
+								<a class="fancybox" href="img/gallery2/2.jpg">
+									<i class="fa fa-camera"></i>
+								</a>
+							</div>
+							<div class="title-holder"><h4>Roof Design</h4></div>
+							<div class="link-view">
+								<a href="#"><i class="fa fa-link"></i></a>
+							</div>
+						</div>
+					</div>
+				</div><!-- /.single-gallery -->
+				<!-- .single-gallery -->
+				<div class="single-gallery slide anim-5-all ">
+					<div class="img-holder">
+						<img src="img/gallery2/3.jpg" alt="">
+						<div class="content">
+							<div class="image-view">
+								<a class="fancybox" href="img/gallery2/3.jpg">
+									<i class="fa fa-camera"></i>
+								</a>
+							</div>
+							<div class="title-holder"><h4>Kitchen Room</h4></div>
+							<div class="link-view">
+								<a href="#"><i class="fa fa-link"></i></a>
+							</div>
+						</div>
+					</div>
+				</div><!-- /.single-gallery -->
+				<!-- .single-gallery -->
+				<div class="single-gallery slide anim-5-all">
+					<div class="img-holder">
+						<img src="img/gallery2/4.jpg" alt="">
+						<div class="content">
+							<div class="image-view">
+								<a class="fancybox" href="img/gallery2/4.jpg">
+									<i class="fa fa-camera"></i>
+								</a>
+							</div>
+							<div class="title-holder"><h4>Roof Design</h4></div>
+							<div class="link-view">
+								<a href="#"><i class="fa fa-link"></i></a>
+							</div>
+						</div>
+					</div>
+				</div><!-- /.single-gallery -->
+			</div><!-- /.image-gallery -->
+		</div>
+	</div>
+</section><!-- /.sliding-gallery -->
+
+
+<!-- .call-to-action -->
+<section class="call-to-action anim-5-all">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-9 call-to-action-text">
+				<h1>Know More About this Villa ... Contact our Agent </h1>
+			</div>
+			<div class="col-lg-3 call-to-action-button anim-5-all text-center">
+				<button  data-toggle="modal" data-target="#contact-agent-modal">Contact Us</button>
+			</div>
+		</div>
+		<!-- .call-to-action -->
+		<div class="call-to-action style-two clearfix">
+			<div class="col-lg-9">
+				<!-- .call-to-action-text -->
+				<div class="call-to-action-text">
+					<h2>Interesting in a showing</h2>
+					<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet  consectetur adipisci velit sed</p>
+				</div><!-- /.call-to-action-text -->
+			</div>
+			<div class="col-lg-3 text-center">
+				<button data-toggle="modal" data-target="#contact-agent-modal">shedule a visit</button>
+			</div>
+		</div><!-- /.call-to-action -->
+	</div>
+</section><!-- /.call-to-action -->
+
+
+<!-- #footer-home -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="contact-agent-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h4 class="modal-title text-center" id="myModalLabel">Contact Our Agent</h4>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			</div>
+			<div class="modal-body">
+				<div class="modal-agent-info-box">
+					<div class="img-holder">
+						<img src="img/contact-agent-modal/1.png" alt="">
+					</div>
+					<div class="content">
+						<h3><span class="name">Marry Doe</span> <span class="position">(Remax Certified Agent)</span></h3>
+						<p>Phone : +1800 548 963 &emsp; Email : info@contactmarrry.com</p>
+					</div>
+				</div>
+				<div class="modal-contact-form">
+					<!-- .contact-form-wrap -->
+					<div class="contact-form-wrap anim-5-all">
+						<form action="http://world5.commonsupport.com/html/apart-villa/inc/sendemail.php" class="contact-form row">
+							<div class="col-md-6">
+								<p><input name="name" type="text" placeholder="Name"></p>
+								<p><input name="phone" type="text" placeholder="Phone"></p>
+								<p><input name="email" type="text" placeholder="Email"></p>
+							</div>
+							<div class="col-md-6">
+								<p><textarea name="message" placeholder="Message"></textarea></p>
+								<p><button type="submit">Get Appointment</button></p>
+							</div>
+						</form>
+					</div><!-- /.contact-form-wrap -->					
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock %}
