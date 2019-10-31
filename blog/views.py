@@ -16,6 +16,8 @@ def contact_us(request):
 	return render(request, "contact.html")
 def course_detail(request):
 	return render(request, "course_details.html")
+def course_detail2(request):
+	return render(request, "course_detail2.html")
 def course(request):
 	return render(request, "course.html")
 def students(request):
