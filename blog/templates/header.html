@@ -50,7 +50,7 @@
 			<div class="row">
 				<!-- .logo -->
 				<div class="col-lg-3 col-md-3 col-sm-4 col-xs-6  logo anim-5 anim-5-all">
-					<a href="/home"><img src="{% static 'img/resources/header-inner-logo.png' %}" alt=""></a>
+					<a href="/trang-chu"><img src="{% static 'img/resources/header-inner-logo.png' %}" alt=""></a>
 				</div><!-- /.logo -->
 				<!-- .main-menu -->
 				<nav class="col-lg-9 col-md-9 col-sm-8 col-xs-6  pull-right text-right anim-5 anim-5-all main-menu">
@@ -58,30 +58,34 @@
 		            <div class="navbar-collapse collapse clearfix">
 		            	<!-- .navigation -->
 			            <ul class="navigation scroll-menu clearfix">
-			                <li class="scrollToLink  ">
-			                	<a href="/home">Giới thiệu</a>
+			                <li class="scrollToLink  dropdown">
+								<a href="/trang-chu">Giới thiệu</a>
+								<ul class="submenu">
+										<li><a href="#">Về Công ty</a></li>
+										<li><a href="/ve-dien-gia">Về Diễn Giả</a></li>
+									</ul>
 				                </li>
 			               <li class="deadLink dropdown">
-			                	<a href="/course">Đào tạo</a>
+			                	<a href="/khoa-hoc">Đào tạo</a>
 			                	<ul class="submenu">
-									<li><a href="/course_detail/1">Lớp BDS thực tế</a></li>
-									<li><a href="/course_detail/2">Huấn luyện/Coaching</a></li>
+									<li><a href="/chi-tiet-khoa-hoc/1">Lớp BDS thực tế</a></li>
+									<li><a href="/chi-tiet-khoa-hoc/2">Huấn luyện/Coaching</a></li>
 								</ul>
 			                </li>
-			                <li class="scrollToLink ">
-								<a href="/about_us">Về diễn giả</a>	
-			                </li>
-			                <li class="scrollToLink"> <a href="/course">Đối tác</a>
+			                <li class="scrollToLink"> <a href="/doi-tac">Đối tác</a>
 			                </li>
 			                <li class="scrollToLink ">
-			                	<a href="/investories">Tư Vấn đầu tư</a>								
+			                	<a href="/dau-tu">Tư Vấn đầu tư</a>								
 			                </li>
 			                <li class="scrollToLink ">
-			                	<a href="/students">Học viên</a>								
+			                	<a href="/hoc-vien">Học viên</a>								
 			                </li>
 			                <li class="  scrollToLink">
-			                	<a href="/blogs">diễn đàn</a>
-			                </li>
+			                	<a href="/dien-dan">diễn đàn</a>
+							</li>
+							<li class="scrollToLink ">
+									<a href="/lien-he">Liên hệ</a>	
+							</li>
 			               <!--  <li class="scrollToLink"> <a href="#contact-section">Liên hệ</a>
 			                </li>
 			                 -->
