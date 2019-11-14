@@ -18,132 +18,84 @@
 
 <div class="preloader"></div>
 
-<section id="page-title" style="background-image: url('img/page-title/bg.jpg');">
+<section id="page-title" style="background-image: url({% static 'img/page-title/123.jpg' %});">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12">
-				<h2>contact us</h2>
+				<h2>Liên hệ</h2>
 			</div>
 		</div>
 	</div>
 </section><!-- /.page-title -->
 
 <!-- .contact-content -->
-<section class="contact-content anim-3-all">
+
+<section id="appointment" class="anim-5-all dark-background">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-12">
-				<!-- .section-title -->
-				<div class="section-title text-center">
-					<span>House Features</span>
-					<h2><span>Room Dimensions</span></h2>
-					<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt <br>ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem.</p>
-				</div><!-- /.section-title -->
-			</div>
+			<!-- .agent-info -->
+			<div class="col-lg-7 col-md-8 col-lg-offset-0 col-md-offset-2 agent-info">
+				<!-- .img-holder -->
+				<div class="img-holder text-center-xs">
+					<img src="{% static 'img/appointment/hue.jpg' %}" alt="">
+				</div><!-- /.img-holder -->
+				<!-- .content -->
+				<div class="content">
+					<!-- .section-title -->
+					<div class="section-title">
+						<span>Văn phòng</span>
+						<h2><span>Liên hệ với Lion Invest</span></h2>
+					</div><!-- /.section-title -->
+					<h3>Huế Nguyễn</h3>
+					<p>(Trợ lý giám đốc)</p>
+					<p>Phone : 091-110-0502</p>
+					<p>Email : lioninvestco@gmail.com</p>
+				</div><!-- /.content -->
+			</div><!-- /.agent-info -->
+			<!-- .contact-form-wrap -->
+			<div class="col-lg-5 col-md-7 col-lg-offset-0 col-md-offset-2 contact-form-wrap">
+				<h3>Gửi tin nhắn</h3>
+				<form action="http://world5.commonsupport.com/html/apart-villa/inc/sendemail.php" class="contact-form">
+					<p><input name="name" type="text" placeholder="Tên"></p>
+					<p><input name="phone" type="text" placeholder="Số điện thoại"></p>
+					<p><input name="email" type="text" placeholder="E-mail"></p>
+					<p><textarea name="message" placeholder="Tin nhắn"></textarea></p>
+					<p><button type="submit">Gửi đi</button></p>
+				</form>
+			</div><!-- /.contact-form-wrap -->
 		</div>
-		<div class="row">
-			<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-				<!-- .contact-form-wrap -->
-				<div class="contact-form-wrap">
-					<form action="http://world5.commonsupport.com/html/apart-villa/inc/sendemail.php" class="contact-form">
-						<p><input name="name" type="text" placeholder="Name"></p>
-						<p><input name="email" type="text" placeholder="E-mail"></p>
-						<p><input name="subject" type="text" placeholder="Subject"></p>
-						<p><textarea name="message" placeholder="Message"></textarea></p>
-						<p><button type="submit">submit now</button></p>
-					</form>
-				</div><!-- /.contact-form-wrap -->
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-				<!-- .agent-info -->
-				<div class="agent-info style-two text-center">
-					<img src="img/contact/1.png" alt="">
-					<!-- .content -->
-					<div class="content">
-						<h3>Marry Doe</h3>
-						<p class="certificate">(Remax Certified Agent)</p>
-						<p>Phone : 604-786-4440</p>
-						<p>Email : info@contactmarrry.com</p>
-					</div><!-- /.content -->
-					<div class="social-icons">
-						<ul>
-							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-							<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-							<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-						</ul>
-					</div>
-				</div><!-- /.agent-info -->
-			</div>
-		</div>
-		<!-- .call-to-action -->
-		<div class="call-to-action style-two clearfix">
-			<div class="col-lg-9 col-md-8 col-sm-12 col-xs-12">
-				<!-- .call-to-action-text -->
-				<div class="call-to-action-text">
-					<h2>Interesting in a showing</h2>
-					<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet  consectetur adipisci velit sed</p>
-				</div><!-- /.call-to-action-text -->
-			</div>
-			<div class="col-lg-3 col-md-4 col-sm-12 col-xs-12 text-center">
-				<button  data-toggle="modal" data-target="#contact-agent-modal">shedule a visit</button>
-			</div>
-		</div><!-- /.call-to-action -->
 	</div>
-</section><!-- /.contact-content -->
+</section><!-- /#appointment -->
+
+
+<section class="contact-style-two anim-12-all" id="contact-section">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-5 contact-info-wrap">
+				<!-- .section-title -->
+				<div class="section-title">
+					<span>Văn phòng đại diện</span>
+					<h2><span>Lion Invest</span></h2>
+				</div><!-- /.section-title -->
+				<div class="contact-info">
+					<ul>
+						<li>Phòng 502 - GIC Tower <br>18A Nguyễn Gia Trí, Phường 25, Bình Thạnh</li>
+						<li>Phone : 0911 -100-502</li>
+						<li>Email : lionivestco@gmail.com</li>
+					</ul>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section>
 
 <!-- #home-footer-google-map-wrap -->
 <section id="home-footer-google-map-wrap">
-	<div class="google-map" id="home-footer-google-map" data-map-lat="-37.812802" data-map-lng="144.956981"  data-map-zoom="12" data-map-overlay-clr="rgba(0,0,0, 0.4)" data-info-window="true"></div>
-	
-	<div class="info-window" data-map-name="home-footer-google-map">
-		<!-- .house-location -->
-		<div class="house-location">
-			<p>Chris Niswandee, Smallsys Inc 795 E Dragram, Tucson AZ 56879 <br> USA</p>
-		</div><!-- /.house-location -->
+	<div class="form">
+		<iframe
+			src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1959.560692515782!2d106.7143735941038!3d10.802014145296555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528a5b2cc7211%3A0x6f2766199d553684!2zMThhIMSQxrDhu51uZyBOZ3V54buFbiBHaWEgVHLDrSwgUGjGsOG7nW5nIDI1LCBCw6xuaCBUaOG6oW5oLCBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1572581052711!5m2!1svi!2s"
+			width="2000" height="450" frameborder="1" style="border:0;" allowfullscreen=""></iframe>
 	</div>
-</section><!-- /#home-footer-google-map-wrap -->
-
-<!-- #footer-home -->
-
-<!-- Modal -->
-<div class="modal fade" id="contact-agent-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-	<div class="modal-dialog" role="document">
-		<div class="modal-content">
-			<div class="modal-header">
-				<h4 class="modal-title text-center" id="myModalLabel">Contact Our Agent</h4>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-			</div>
-			<div class="modal-body">
-				<div class="modal-agent-info-box">
-					<div class="img-holder">
-						<img src="img/contact-agent-modal/1.png" alt="">
-					</div>
-					<div class="content">
-						<h3><span class="name">Marry Doe</span> <span class="position">(Remax Certified Agent)</span></h3>
-						<p>Phone : +1800 548 963 &emsp; Email : info@contactmarrry.com</p>
-					</div>
-				</div>
-				<div class="modal-contact-form">
-					<!-- .contact-form-wrap -->
-					<div class="contact-form-wrap anim-5-all">
-						<form action="http://world5.commonsupport.com/html/apart-villa/inc/sendemail.php" class="contact-form row">
-							<div class="col-md-6">
-								<p><input name="name" type="text" placeholder="Name"></p>
-								<p><input name="phone" type="text" placeholder="Phone"></p>
-								<p><input name="email" type="text" placeholder="Email"></p>
-							</div>
-							<div class="col-md-6">
-								<p><textarea name="message" placeholder="Message"></textarea></p>
-								<p><button type="submit">Get Appointment</button></p>
-							</div>
-						</form>
-					</div><!-- /.contact-form-wrap -->					
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-
-
+</section>
 {% endblock %}

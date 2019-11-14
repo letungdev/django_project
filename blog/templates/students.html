@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<title>
 		{% block head_title %}
-		Về Diễn Giả
+		Về Học Viên
 		{% endblock %}
 	</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,25 +16,22 @@
 <!-- /.preloader -->
 
 <!-- #page-title -->
-<section id="page-title" style="background-image: url('img/page-title/bg.jpg');">
+<section id="page-title" style="background-image: url{% static 'img/about/bg.png' %};">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12">
-				<h2>Agent Page</h2>
+				<h2>Trang học viên</h2>
 			</div>
 		</div>
 	</div>
 </section><!-- /#page-title -->
-
-
-
 
 <section class="about-agent anim-3-all">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-5">
 				<div class="img-holder">
-					<img src="img/about-agent/1.jpg" alt="">
+					<img src="{% static 'img/about-agent/1.jpg'%}" alt="">
 					<div class="social-icons">
 						<ul>
 							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -51,14 +48,16 @@
 					<!-- .section-title -->
 					<div class="section-title">
 						<span>Real Estate Agent</span>
-						<h2><span>Michale John</span></h2>				
+						<h2><span>Michale John</span></h2>
 					</div><!-- /.section-title -->
-					<p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit labo- riosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure repre- henderit qui in ea voluptate velit esse quam nihil molestiae.</p>
-					
+					<p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit labo- riosam, nisi
+						ut aliquid ex ea commodi consequatur? Quis autem vel eum iure repre- henderit qui in ea
+						voluptate velit esse quam nihil molestiae.</p>
+
 					<div class="contact-button">
 						<ul>
 							<li class="hvr-bounce-to-right">
-								<span class="icon-box"><i class="fa fa-phone"></i></span> 
+								<span class="icon-box"><i class="fa fa-phone"></i></span>
 								<span class="text">+ 91 865 9575 963</span></li>
 							<li class="hvr-bounce-to-right">
 								<span class="icon-box"><i class="fa fa-envelope-o"></i></span>
@@ -68,7 +67,7 @@
 					</div>
 					<!-- .section-title -->
 					<div class="section-title style-two">
-						<h2><span>Practice Areas:</span></h2>				
+						<h2><span>Practice Areas:</span></h2>
 					</div><!-- /.section-title -->
 
 					<ul class="practice-areas">
@@ -93,14 +92,21 @@
 				<!-- .section-title -->
 				<div class="section-title">
 					<span>My work Experience</span>
-					<h2><span>Professional Experience</span></h2>				
+					<h2><span>Professional Experience</span></h2>
 				</div><!-- /.section-title -->
 
-				<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatu.</p>
+				<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
+					magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum
+					quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut
+					labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum
+					exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis
+					autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatu.</p>
 
 				<p><b>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,</b></p>
 
-				<p>sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. </p>
+				<p>sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
+					est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius
+					modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. </p>
 			</div>
 		</div>
 	</div>
@@ -110,11 +116,24 @@
 	<div class="container">
 		<!-- .section-title -->
 		<div class="section-title text-center">
-			<span>Về Học Viên</span>
-			<h2><span>Học viên tiêu biểu & cảm nhận</span></h2>
-			<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt <br>ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem.</p>
+
+			<h2><span>Sứ mệnh</span></h2>
+			<p>Mr. Phạm Tuấn Anh không chỉ là 1 nhà đầu tư bất động sản, bên cạnh đó còn là 1 người thầy, 1 nhà đào
+				tạo....</p>
+			<p>Xây dựng 10 dự án BĐS có ý nghĩa xã hội trước 60 tuổi. Xây dựng các dự án phát triển tri thức, kinh
+				tế vùng cao, vùng sâu Việt Nam</p>
+			<p>Truyền cảm hứng đầu tư BĐS Tử tế tới 10 triệu người Việt Nam trưởng thành, hướng dẫn đầu tư tới 1
+				triệu người, và dìu dắt 5000 nhà đầu tư chuyên nghiệp.
+			</p>
 		</div><!-- /.section-title -->
 		<div class="row">
+			<div class="col-md-2 col-sm-4">
+				<div class="single-neighbour">
+					<h3>Nhà đầu tư</h3>
+					<p>Một nhà đầu tư chuyên nghiệp</p>
+					<p class="distance"><span class="number">100</span> Dự án</p>
+				</div>
+			</div>
 			<div class="col-md-2 col-sm-4">
 				<div class="single-neighbour">
 					<h3>Chuyên Gia</h3>
@@ -129,10 +148,11 @@
 					<p class="distance"><span class="number">10</span> Năm</p>
 				</div>
 			</div>
+
 			<div class="col-md-2 col-sm-4">
 				<div class="single-neighbour">
 					<h3>Dự án</h3>
-					<p>Là nhà đầu tư của nhiều dự án lớn, nhỏ</p>
+					<p>Giữ nhiều chức vụ quan trọng</p>
 					<p class="distance"><span class="number">100 </span> Dự án</p>
 				</div>
 			</div>
@@ -150,18 +170,13 @@
 					<p class="distance"><span class="number">100</span> Lớp</p>
 				</div>
 			</div>
-			<div class="col-md-2 col-sm-4">
-				<div class="single-neighbour">
-					<h3>Bank</h3>
-					<p>Council Bluffs 12</p>
-					<p class="distance"><span class="number">1</span> Km</p>
-				</div>
-			</div>
+
 		</div>
 	</div>
 </section><!-- /#location-neighbouring -->
 
-<section class="testimonial has-overlay parallax-section" style="background-image: url(img/testimonials/bg.jpg);">
+<section class="testimonial has-overlay parallax-section"
+	style="background-image: url({% static 'img/testimonials/bg.jpg' %});">
 	<div class="container">
 		<!-- .testimonial-wrap -->
 		<div class="testimonial-wrap-style-two">
@@ -170,52 +185,86 @@
 					<!-- .single-testimonail -->
 					<div class="single-testimonail item">
 						<div class="img-holder">
-							<img src="img/testimonials/2.png" alt="">
+							<img src="{% static 'img/testimonials/2.png' %}" alt="">
 						</div>
 						<div class="content clearfix">
-							<p><span class="qoute">“</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nstrud exercitation ullamco laboris nisi ut aliquip ex ea commodo cons equat. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
+							<p><span class="qoute">“</span>Những kiến thức của thầy đúc kết rất thực tiễn và giá trị.
+								Nếu biết trước thì có lẽ mình đã cẩn thận và phân tích dòng tiền tài chính kỹ hơn chứ
+								không vội vàng khi mua lô đất bên quận 9 hồi tháng 4/2019. Mình sẽ áp dụng những kiến
+								thức này để biến các bất động sản sau này thành tài sản và tạo dòng tiền tốt.</p>
 							<div class="meta">
-								<span class="name">- Michale John</span>
-								<span class="postion">Spsum is simply dummy</span>
+								<span class="name">- Trịnh Hưng Thạnh</span>
+								<span class="postion">Thi công nội thất</span>
 							</div>
 						</div>
 					</div><!-- /.single-testimonail -->
 					<!-- .single-testimonail -->
 					<div class="single-testimonail item">
 						<div class="img-holder">
-							<img src="img/testimonials/2.png" alt="">
+							<img src="{% static 'img/testimonials/2.png' %}" alt="">
 						</div>
 						<div class="content clearfix">
-							<p><span class="qoute">“</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nstrud exercitation ullamco laboris nisi ut aliquip ex ea commodo cons equat. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
+							<p><span class="qoute">“</span>Sau 2 ngày học và nghe những kiến thức thầy Phạm Tuấn Anh
+								chia sẻ, em thấy mình may mắn khi được biết đến khóa học và được học những kiến thức từ
+								thầy. Tuy chỉ 2 ngày học nhưng em đã tích lũy được một lượng kiến thức về đầu tư bất
+								động sản và kế hoạch tài chính.</p>
 							<div class="meta">
-								<span class="name">- Michale John</span>
-								<span class="postion">Spsum is simply dummy</span>
+								<span class="name">- Trần Thị Mỹ Nương </span>
+								<span class="postion">Spa và thẩm mỹ</span>
 							</div>
 						</div>
 					</div><!-- /.single-testimonail -->
 					<!-- .single-testimonail -->
 					<div class="single-testimonail item">
 						<div class="img-holder">
-							<img src="img/testimonials/2.png" alt="">
+							<img src="{% static 'img/testimonials/2.png' %}" alt="">
 						</div>
 						<div class="content clearfix">
-							<p><span class="qoute">“</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nstrud exercitation ullamco laboris nisi ut aliquip ex ea commodo cons equat. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
+							<p><span class="qoute">“</span>Qua 2 ngày học em đúc kết được nhiều kiến thức từ thầy:Hệ
+								thống kiến thức về tài sản BĐS là gì ?Phương pháp chiến lược để đầu tư BĐS.Em tâm đắc
+								nhất là kế hoạch để hoạch định dòng tiền trong cuộc sống cá nhân và kinh doanh hiệu quả.
+								Em nghĩ sẽ cảm nhận, học hỏi và đào sâu về sức mạnh đầu tư. Các kiến thức thầy dạy rất
+								bổ ích
+							</p>
 							<div class="meta">
-								<span class="name">- Michale John</span>
-								<span class="postion">Spsum is simply dummy</span>
+								<span class="name">- Đặng Đức Tài </span>
+								<span class="postion">Chuyên viên tín dụng</span>
 							</div>
 						</div>
 					</div><!-- /.single-testimonail -->
 					<!-- .single-testimonail -->
 					<div class="single-testimonail item">
 						<div class="img-holder">
-							<img src="img/testimonials/2.png" alt="">
+							<img src="{% static 'img/testimonials/2.png' %}" alt="">
 						</div>
 						<div class="content clearfix">
-							<p><span class="qoute">“</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nstrud exercitation ullamco laboris nisi ut aliquip ex ea commodo cons equat. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
+							<p><span class="qoute">“</span>Lần đầu tiên tôi được học về BĐS tôi cảm thấy rất may mắn vì
+								những kiến thức thầy chia sẻ rất cụ thể và rõ rang, chuyên sâu về đầu tư, kinh doanh
+								BĐS. Qua buổi học tôi hiểu được cách lập dự án kinh doanh BĐS và định giá được tài sản,
+								biết lập ngân sách để sử dụng tài chính họp lý vào dự án BĐS. Cảm ơn thầy Phạm Tuấn Anh
+								đã giúp đỡ các bạn học và em có thêm kiến thức.</p>
 							<div class="meta">
-								<span class="name">- Michale John</span>
-								<span class="postion">Spsum is simply dummy</span>
+								<span class="name">- Hồ Ngọc Trâm </span>
+								<span class="postion">CEO & Founder Dalat Ecofarm</span>
+							</div>
+						</div>
+
+					</div><!-- /.single-testimonail -->
+					<div class="single-testimonail item">
+						<div class="img-holder">
+							<img src="{% static 'img/testimonials/2.png' %}" alt="">
+						</div>
+						<div class="content clearfix">
+							<p><span class="qoute">“</span>Thầy chia sẻ các kiến thức rất bổ ích về BĐS thực tế, cung
+								cấp các kiến thức về quy hoạch, đầu tư, xây dựng, pháp lý, vị trí,… và cả các kiến thức
+								về tài chính mang tầm quốc tế, quốc gia. Đó là những kiến thức rất vững chắc, cơ bản để
+								các nhà đầu tư tự tin ra thị trường.
+								Cảm nhận thầy là người rất có tâm, chia sẻ rất chân tình với ý nghĩa “cho đi giá trị”
+								cho cộng đồng.
+							</p>
+							<div class="meta">
+								<span class="name">- Đào Lan Anh </span>
+								<span class="postion">Đầu tư tự do</span>
 							</div>
 						</div>
 					</div><!-- /.single-testimonail -->
@@ -230,50 +279,58 @@
 		<div class="row">
 			<div class="col-md-7">
 				<div class="img-holder">
-					<img src="img/agent-interview/1.jpg" alt="">
+					<img src="{%static 'img/agent-interview/1.jpg'%}" alt="">
 					<div class="content">
-						<a class="video-fancybox" title="Awesome RealEsate" href="http://www.youtube.com/v/QTMhCsahj2k?fs=1&amp;autoplay=1"><i class="fa fa-play-circle"></i></a>
+						<a class="video-fancybox" title="Awesome RealEsate"
+							href="http://www.youtube.com/v/QTMhCsahj2k?fs=1&amp;autoplay=1"><i
+								class="fa fa-play-circle"></i></a>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-5">
 				<!-- .section-title -->
 				<div class="section-title">
-					<span>A Few Words My Experiences</span>
-					<h2><span>My Interview</span></h2>				
+					<span>Học viên nói gì?</span>
+					<h2><span>Cảm nhận của học viên</span></h2>
 				</div><!-- /.section-title -->
-				<p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi con- sequatur? Quis autem vel eum iure reprehenderit qui in ea vo- luptate velit esse quam nihil molestiae.</p>
-				<a href="#" class="btn">See More Videos</a>
+				<p>hầy chia sẻ các kiến thức rất bổ ích về BĐS thực tế, cung
+					cấp các kiến thức về quy hoạch, đầu tư, xây dựng, pháp lý, vị trí,… và cả các kiến thức
+					về tài chính mang tầm quốc tế, quốc gia. Đó là những kiến thức rất vững chắc, cơ bản để
+					các nhà đầu tư tự tin ra thị trường.</p>
+				<a href="#" class="btn">Xem thêm</a>
 			</div>
 		</div>
 	</div>
 </section>
-
 
 <section class="agent-interview">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-7">
 				<div class="img-holder">
-					<img src="img/agent-interview/1.jpg" alt="">
+					<img src="{%static 'img/agent-interview/1.jpg'%}" alt="">
 					<div class="content">
-						<a class="video-fancybox" title="Awesome RealEsate" href="http://www.youtube.com/v/QTMhCsahj2k?fs=1&amp;autoplay=1"><i class="fa fa-play-circle"></i></a>
+						<a class="video-fancybox" title="Awesome RealEsate"
+							href="http://www.youtube.com/v/QTMhCsahj2k?fs=1&amp;autoplay=1"><i
+								class="fa fa-play-circle"></i></a>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-5">
 				<!-- .section-title -->
 				<div class="section-title">
-					<span>A Few Words My Experiences</span>
-					<h2><span>My Interview</span></h2>				
+					<span>Học viên nói gì?</span>
+					<h2><span>Cảm nhận của học viên</span></h2>
 				</div><!-- /.section-title -->
-				<p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi con- sequatur? Quis autem vel eum iure reprehenderit qui in ea vo- luptate velit esse quam nihil molestiae.</p>
-				<a href="#" class="btn">See More Videos</a>
+				<p>hầy chia sẻ các kiến thức rất bổ ích về BĐS thực tế, cung
+					cấp các kiến thức về quy hoạch, đầu tư, xây dựng, pháp lý, vị trí,… và cả các kiến thức
+					về tài chính mang tầm quốc tế, quốc gia. Đó là những kiến thức rất vững chắc, cơ bản để
+					các nhà đầu tư tự tin ra thị trường.</p>
+				<a href="#" class="btn">Xem thêm</a>
 			</div>
 		</div>
 	</div>
 </section>
-
 
 <section class="contact-agent contact-content anim-5-all">
 	<div class="container">
@@ -282,13 +339,14 @@
 				<!-- .section-title -->
 				<div class="section-title text-center">
 					<span>Drop Your Message</span>
-					<h2><span>Contact with Agent</span></h2>				
+					<h2><span>Contact with Agent</span></h2>
 				</div><!-- /.section-title -->
 				<!-- .contact-form-wrap -->
 				<div class="contact-form-wrap">
-					<form action="http://world5.commonsupport.com/html/apart-villa/inc/sendemail.php" class="contact-form">
+					<form action="http://world5.commonsupport.com/html/apart-villa/inc/sendemail.php"
+						class="contact-form">
 						<p><input name="name" type="text" placeholder="Name"></p>
-						<p><input name="phone" type="text" placeholder="Phone Number"></p>						
+						<p><input name="phone" type="text" placeholder="Phone Number"></p>
 						<p><input name="email" type="text" placeholder="E-mail"></p>
 						<p><input name="subject" type="text" placeholder="Subject"></p>
 						<p><textarea name="message" placeholder="Message"></textarea></p>
@@ -306,22 +364,25 @@
 		<div class="modal-content">
 			<div class="modal-header">
 				<h4 class="modal-title text-center" id="myModalLabel">Contact Our Agent</h4>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+						aria-hidden="true">&times;</span></button>
 			</div>
 			<div class="modal-body">
 				<div class="modal-agent-info-box">
 					<div class="img-holder">
-						<img src="img/contact-agent-modal/1.png" alt="">
+						<img src="{% static 'img/contact-agent-modal/1.png'%}" alt="">
 					</div>
 					<div class="content">
-						<h3><span class="name">Marry Doe</span> <span class="position">(Remax Certified Agent)</span></h3>
+						<h3><span class="name">Marry Doe</span> <span class="position">(Remax Certified Agent)</span>
+						</h3>
 						<p>Phone : +1800 548 963 &emsp; Email : info@contactmarrry.com</p>
 					</div>
 				</div>
 				<div class="modal-contact-form">
 					<!-- .contact-form-wrap -->
 					<div class="contact-form-wrap anim-5-all">
-						<form action="http://world5.commonsupport.com/html/apart-villa/inc/sendemail.php" class="contact-form row">
+						<form action="http://world5.commonsupport.com/html/apart-villa/inc/sendemail.php"
+							class="contact-form row">
 							<div class="col-md-6">
 								<p><input name="name" type="text" placeholder="Name"></p>
 								<p><input name="phone" type="text" placeholder="Phone"></p>
@@ -332,7 +393,7 @@
 								<p><button type="submit">Get Appointment</button></p>
 							</div>
 						</form>
-					</div><!-- /.contact-form-wrap -->					
+					</div><!-- /.contact-form-wrap -->
 				</div>
 			</div>
 		</div>

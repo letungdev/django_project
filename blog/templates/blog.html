@@ -5,7 +5,7 @@
 <head>
 	<meta charset="UTF-8">
 	{% block head_title %}
-		Diễn Đàn
+		
 	{% endblock %}
 	<!-- reponsive meta -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,7 +17,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12">
-				<h2>Blog Details Right Sidebar</h2>
+				<h2>Diễn đàn</h2>
 			</div>
 		</div>
 	</div>
@@ -32,18 +32,18 @@
 				<div class="single-blog-post single-page-content anim-5-all">
 					<!-- .img-holder -->
 					<div class="img-holder">
-						<img src="img/blog-post/1.jpg" alt="">						
+						<img src="{% static 'img/blog-post/1.jpg'%}" alt="">						
 					</div><!-- /.img-holder -->
 					<div class="post-meta">
 						<div class="date-holder">
-							<b>09</b> Aug
+							<b>09</b> Tháng 8
 						</div>
 						<div class="title-holder">
-							<h2 class="title">Blog heading goes here</h2>
+							<h2 class="title">Đây là tiêu đề Blog post</h2>
 							<ul>
-								<li><a href="#">By Michale John</a></li>
-								<li><a href="#">Home made pizza</a></li>
-								<li><a href="#">Comments: 5</a></li>
+								<li><a href="#">By Admin</a></li>
+								<li><a href="#">Đất nền dự án</a></li>
+								<li><a href="#">Bình luận: 5</a></li>
 							</ul>
 						</div>
 					</div>
@@ -213,32 +213,32 @@
 				<div class="sidebar-wrap gray anim-5-all">
 					<!-- .single-sidebar -->
 					<div class="single-sidebar">
-						<h3><span>Search</span></h3>
+						<h3><span>Tìm kiếm</span></h3>
 						<form action="#">
-							<input type="text" placeholder="Enter Search Keywords">
+							<input type="text" placeholder="Nhập từ khóa cần tìm">
 							<button><i class="icon icon-Search"></i></button>
 						</form>
 					</div><!-- /.single-sidebar -->
 					<!-- .single-sidebar -->
 					<div class="single-sidebar">
-						<h3><span>categories</span></h3>
+						<h3><span>Thể loại</span></h3>
 						<ul class="categories">
-							<li><a href="#">Aminities at Apart villa</a></li>
-							<li><a href="#">Near by places</a></li>
-							<li><a href="#">Property updates</a></li>
-							<li><a href="#">University near villa</a></li>
-							<li><a href="#">Property type and title clear</a></li>
-							<li><a href="#">Property highlights</a></li>
+							<li><a href="#">Đầu tư đất nền</a></li>
+							<li><a href="#">Đầu tư căn hộ</a></li>
+							<li><a href="#">Tin BDS</a></li>
+							<li><a href="#">Thuê & cho thuê</a></li>
+							<li><a href="#">Dự án</a></li>
+							<li><a href="#">Tin tức tài chính</a></li>
 						</ul>
 					</div><!-- /.single-sidebar -->
 					<!-- .single-sidebar -->
 					<div class="single-sidebar">
-						<h3><span>Popular Posts</span></h3>
+						<h3><span>Bài viết phổ biến</span></h3>
 						<ul class="popular-post">
 							<li>
 								<!-- .img-holder -->
 								<div class="img-holder">
-									<img src="img/popular-post/1.jpg" alt="">
+									<img src="{% static 'img/popular-post/1.jpg'%}" alt="">
 								</div><!-- /.img-holder -->
 								<div class="content">
 									<h4><a href="#">UNIVERSITY NEAR TO Apatt VILLA</a></h4>
@@ -248,7 +248,7 @@
 							<li>
 								<!-- .img-holder -->
 								<div class="img-holder">
-									<img src="img/popular-post/2.jpg" alt="">
+									<img src="{% static 'img/popular-post/2.jpg'%}" alt="">
 								</div><!-- /.img-holder -->
 								<div class="content">
 									<h4><a href="#">UNIVERSITY NEAR TO Apatt VILLA</a></h4>
@@ -258,7 +258,7 @@
 							<li>
 								<!-- .img-holder -->
 								<div class="img-holder">
-									<img src="img/popular-post/3.jpg" alt="">
+									<img src="{% static 'img/popular-post/3.jpg'%}" alt="">
 								</div><!-- /.img-holder -->
 								<div class="content">
 									<h4><a href="#">UNIVERSITY NEAR TO Apatt VILLA</a></h4>

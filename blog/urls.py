@@ -14,6 +14,8 @@ urlpatterns = [
     path('khoa-hoc/',views.course_detail, name = "details-page"),
     path('dau-tu/',views.invest, name = "invest-page"),
     path('hoc-vien/',views.students, name = "students-page"),
+    path('doi-tac/',views.students, name = "students-page"),
+
 
 
 ]
